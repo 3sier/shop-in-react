@@ -1,0 +1,132 @@
+[
+    {
+    "brand": "Vuja De",
+    "title": "KIMONO-DYED DIVISOR FLARED CARGOS",
+    "category": "Pants",
+    "price": 585,
+    "priceUnit": "USD",
+    "imgs":{
+        "front":"https://i.ibb.co/MDMTcfq/vujade-cargos-front.png",
+        "back":"https://i.ibb.co/55TFgFW/vujade-cargos-back.png",
+        "model":"https://i.ibb.co/t8ZXyPd/Untitled-Artwork36.jpg"
+    },
+    "description": "Using 14oz Japanese Selvedge Denim from the mills of Okayama, these denim cargos have been yūzen dyed by artisans in Kyoto to attain an ink black color. Yūzen dyeing also known as kimono dying, is a practice pursed for decades, usually applied on traditional kimono clothing.\n The Kimono Dyed Divisor Flared Cargos features oxidized buttons, rivets, and adjusters with an inside out denim paneling on the outer component of the body. This 14oz Japanese Selvedge Denim is Kimono Dyed and distressed to give off a vintage look.\n Each piece is uniquely hand dyed by a single artisan and requires tremendous hours to achieve this true black color."
+    },
+    {
+        "brand": "Vuja De",
+        "title": "VD LOGO",
+        "category": "Sweatshirts",
+        "price": 300,
+        "priceUnit": "USD",
+        "imgs":{
+            "front":"https://i.ibb.co/JBS6zPf/vd-hoodie.jpg",
+            "back":"https://i.ibb.co/dGLHwW4/detail-hoodie.jpg",
+            "model":"https://i.ibb.co/t8ZXyPd/Untitled-Artwork36.jpg"
+        },
+        "description": "The VD LOGO HOODIE is made of 100% cotton with UV-resistant and anti-pilling technology. The fabric is tightly weaved to create a matte-like texture, while deflecting any harmful pollutants and sun rays during contact. The hoodie features a one directional embroidery to reduce thickness and promote mobility around the chest area. Much like our previous Walkman logo, the VD logo is Vuja De’s reiteration of the classic DVD logo in our own reminiscence."
+        },
+        {
+            "brand": "Vuja De",
+            "title": "DUAL ZIP LEATHER JACKET",
+            "category": "Jacket",
+            "price": 1450,
+            "priceUnit": "USD",
+            "imgs":{
+                "front":"https://i.ibb.co/HHDKfjL/leatherjacket-front-min.jpg",
+                "back":"https://i.ibb.co/dGLHwW4/detail-hoodie.jpg",
+                "model":"https://i.ibb.co/WWf37y7/leatherjacket-back-min.jpg"
+            },
+            "description": "The Dual Zip Leather Jacket is hand-crafted with 100% calf leather and features darting along the shoulder blades to create a structured yet fluid silhouette. The jacket features dual Excella zippers with two hidden snap button closures, high quality cupro lining, and two front welt pockets. The cut of the jacket is boxy with wide elongated sleeves allowing room for mobility and comfort.\n We have worked with leather specialists in Japan to ensure quality and integrity of the garments’ production, as well as to support and promote awareness of the rapid decline in artisans around the country."
+            },
+        {
+                "brand": "Maison Mihara Yasuhiro",
+                "title": "Mohair Knit Cardigan",
+                "category": "Sweater",
+                "price": 441,
+                "priceUnit": "USD",
+                "imgs":{
+                    "front":"https://i.ibb.co/s1YzHR0/A11-CD511-001.jpg",
+                    "back":"https://i.ibb.co/9H36KZF/A11-CD511-003.jpg",
+                    "model":"https://i.ibb.co/RcWF0hK/A11-CD511-006.jpg"
+            },
+                "description": "Knit cardigan in mohair.\n Damaged finish.\n V-neck. \n Two side pockets. \n Button closure."
+},
+{
+    "brand": "Maison Mihara Yasuhiro",
+    "title": "Vertical Switching Hoodie",
+    "category": "Sweatshirts",
+    "price": 414,
+    "priceUnit": "USD",
+    "imgs":{
+        "front":"https://i.ibb.co/hD0qbZK/A11-HD571-001.jpg",
+        "back":"https://i.ibb.co/1MRBPyd/A11-HD571-003.jpg",
+        "model":"https://i.ibb.co/QMsRkxn/A11-HD571-005.jpg"
+},
+    "description": "The design combines several different sweatshirts vertically.\n Printed with a smiley face on the front and M on the back.\n With front pockets. \n Stained and damaged."
+},
+{
+    "brand": "Rick Owens",
+    "title": "Luxor Bias Bootcut",
+    "category": "Pants",
+    "price": 675,
+    "priceUnit": "USD",
+    "imgs":{
+        "front":"https://i.ibb.co/ThykzqR/DU02-C5352-SBB-09-01.jpg",
+        "back":"https://i.ibb.co/CHjr1vS/DU02-C5352-SBB-09-03.jpg",
+        "model":"https://i.ibb.co/4VRjCFv/DU02-C5352-SBB-09-07.jpg"
+},
+    "description": "Rick Owens fw23 luxor bias bootcut in blackety black stretch denim.\n these bias bootcut are a straight fit, mid-rise, 5 pocket jean with a floor length slight bootcut. they have a button fly, a waistband with belt loops and pocket rivets, and rear patch pockets with topstitching. They feature a bias cut panel with seams that wrap around the leg twice. This lightweight stretch denim is garment treated with a black matte wax finish.\n This garment is treated in an italian wash house based in the veneto area of italy, that produces in smaller treatment baths to reduce water waste and utilize a water purifying process that enables them to recycle a portion of the water used. all of our denim washes are zdhc certified."
+},
+{
+    "brand": "Rick Owens",
+    "title": "Luxor Jumbo Hooded Peter",
+    "category": "Jacket",
+    "price": 4970,
+    "priceUnit": "USD",
+    "imgs":{
+        "front":"https://i.ibb.co/3MYPwxP/RU02-C7781-LSHBRA-09-01.jpg",
+        "back":"https://i.ibb.co/MNBymYc/RU02-C7781-LSHBRA-09-03.jpg",
+        "model":"https://i.ibb.co/mFS1MPB/RU02-C7781-LSHBRA-09-09.jpg"
+},
+    "description": "Rick Owens fw23 luxor jumbo hooded peter in black butter lamb shearling radiance.\n This jumbo hooded peter jacket is below hip length with an oversize fit. it features a centre front zipper, long sleeves with low shoulders and a dropped, batwing armhole, two zippered side pockets and a hood\n this version is made of patchwork shearling with radiance lines and is reversible, so can be worn with the fur on the interior or the exterior.\n It has two side front zippered pockets, two internal pockets with snaps and raw cut cuffs and hem edged with rows of signature stitching lines."
+},
+{
+    "brand": "Rick Owens",
+    "title": "Luxor Outershirt",
+    "category": "Jacket",
+    "price": 2325,
+    "priceUnit": "USD",
+    "imgs":{
+        "front":"https://i.ibb.co/ySzvGgN/RU02-C7729-LCN-04-01.jpg",
+        "back":"https://i.ibb.co/qd9tnyB/RU02-C7729-LCN-04-03.jpg",
+        "model":"https://i.ibb.co/cCg2nsz/RU02-C7729-LCN-04-09.jpg"
+},
+    "description": "The FogPocket Secret Larry is a hip-length garment adorned with long sleeves. It boasts a stylish deep V-neck, complemented by discreet snap closures. The design incorporates two Fog breast pockets characterized by a vertical opening and internal snap fastenings. Additionally, it features level shoulder seams, a back yoke, snap cuffs, and a hemline with beveled sides.\n This particular version of the FogPocket Secret Larry is fully lined for enhanced comfort and sophistication. It is equipped with two internal zippered pockets, adding a practical and secure element to its overall design."
+},
+{
+    "brand": "Balenciaga",
+    "title": "Cocoon Kick Jacket",
+    "category": "Jacket",
+    "price": 5000,
+    "priceUnit": "USD",
+    "imgs":{
+        "front":"https://i.ibb.co/LNc0jbB/Medium-773411-TPS021000-G.jpg",
+        "back":"https://i.ibb.co/3r8cMM7/Medium-773411-TPS021000-I.jpg"
+},
+    "description": "Cocoon Kick Jacket in black vintage effect calfskin\n Vintage effect calfskin\n Large fit\n Cocoon volume\n Shoulder pads\n Made in Italy"
+},
+{
+    "brand": "Vetements",
+    "title": "Cocoon Kick Jacket",
+    "category": "Sweatshirts",
+    "price": 1090,
+    "priceUnit": "USD",
+    "imgs":{
+        "front":"https://i.ibb.co/zGjZ5q8/vetements-pull-a-capuche-noir-a-image.png",
+        "back":"https://i.ibb.co/KFjYBr7/vetements-pull-a-capuche-noir-a-image-2.png",
+        "model":"https://i.ibb.co/X3mG3Gp/vetements-pull-a-capuche-noir-a-image-1.png"
+},
+    "description": "Cocoon Kick Jacket in black vintage effect calfskin\n Vintage effect calfskin\n Large fit\n Cocoon volume\n Shoulder pads\n Made in Italy"
+}
+
+]
