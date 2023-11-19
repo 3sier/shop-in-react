@@ -116,17 +116,56 @@
     "description": "Cocoon Kick Jacket in black vintage effect calfskin\n Vintage effect calfskin\n Large fit\n Cocoon volume\n Shoulder pads\n Made in Italy"
 },
 {
-    "brand": "Vetements",
-    "title": "Cocoon Kick Jacket",
-    "category": "Sweatshirts",
-    "price": 1090,
+    "brand": "Moncler",
+    "title": "Violier Spider-Man Short Down",
+    "category": "Jacket",
+    "price": 1865,
     "priceUnit": "USD",
     "imgs":{
-        "front":"https://i.ibb.co/zGjZ5q8/vetements-pull-a-capuche-noir-a-image.png",
-        "back":"https://i.ibb.co/KFjYBr7/vetements-pull-a-capuche-noir-a-image-2.png",
-        "model":"https://i.ibb.co/X3mG3Gp/vetements-pull-a-capuche-noir-a-image-1.png"
+        "front":"https://i.ibb.co/TmG77Zj/311800752-1281972632537491-6343411521022764113-n.jpg",
+        "back":"https://i.ibb.co/2gxQqR2/AAUOU0205-FA05-BLK0001-F23-12.webp",
+        "model":"https://i.ibb.co/2Mz8CC0/311640816-497621448928406-4025553388364059969-n.jpg"
 },
-    "description": "Cocoon Kick Jacket in black vintage effect calfskin\n Vintage effect calfskin\n Large fit\n Cocoon volume\n Shoulder pads\n Made in Italy"
+    "description": "Crafted from water-repellent and lightweight nylon, it features two side zipped pockets and a high neck hood for ultimate versatility, while the glossy texture further enhances the superhero-inspired look."
+},
+{
+    "brand": "Alyx",
+    "title": "Arch Logo Bomber Jacket",
+    "category": "Jacket",
+    "price": 855,
+    "priceUnit": "USD",
+    "imgs":{
+        "front":"https://i.ibb.co/5vBNyPn/AAUOU0205-FA05-BLK0001-F23-1.png",
+        "back":"https://i.ibb.co/KKKYjvq/AAUOU0205-FA05-BLK0001-F23-12.png",
+        "model":"https://i.ibb.co/9NY6GkC/AAUOU0205-FA05-BLK0001-F23-2.png"
+},
+    "description": "Classic Alyx arch stitched logo bomber."
+},
+{
+    "brand": "Supreme",
+    "title": "Work Jacket",
+    "category": "Jacket",
+    "price": 358,
+    "priceUnit": "USD",
+    "imgs":{
+        "front":"https://i.ibb.co/bzcD428/Supreme-Toshio-Saeki-Supreme-Work-Jacket-Black-1.jpg",
+        "back":"https://i.ibb.co/cvkbPKH/02c.png",
+        "model":"https://i.ibb.co/CtgSBbn/Screenshot-1.png"
+},
+    "description": "Cotton blend with quilted taffeta lining and full zip closure.\n Hand pockets at lower front, utility pocket on sleeve and interior chest pocket.\n Woven and printed patches at front, back and sleeves. Original artwork by Toshio Saeki."
+},
+{
+    "brand": "Supreme",
+    "title": "Painted Camo Crinkle Down Jacket",
+    "category": "Jacket",
+    "price": 848,
+    "priceUnit": "USD",
+    "imgs":{
+        "front":"https://i.ibb.co/L6xxXML/01a.png",
+        "back":"https://i.ibb.co/Vv46DHv/01e.png",
+        "model":"https://i.ibb.co/YkqLx0c/e8c8da4b1b392132c3ec59c1ed2a7358.jpg"
+},
+    "description": "Water and wind resistant lightweight nylon with resin-coated inner facing that results in crinkled texture. Unique camouflage pattern acheived through garment dyeing and Stone Island® shooting technique.\n Removable down-filled hood insert with printed logos at back. Remove to deploy upper hood as full mesh facemask. Interior elastic shockcords at hood and hem with snap closures at cuffs. Removable Stone Island® badge at sleeve and printed logos on back. Made exclusively for Supreme."
 }
 
 ]
