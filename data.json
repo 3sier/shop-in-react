@@ -13,43 +13,43 @@
     "description": "Using 14oz Japanese Selvedge Denim from the mills of Okayama, these denim cargos have been yūzen dyed by artisans in Kyoto to attain an ink black color. Yūzen dyeing also known as kimono dying, is a practice pursed for decades, usually applied on traditional kimono clothing.\n The Kimono Dyed Divisor Flared Cargos features oxidized buttons, rivets, and adjusters with an inside out denim paneling on the outer component of the body. This 14oz Japanese Selvedge Denim is Kimono Dyed and distressed to give off a vintage look.\n Each piece is uniquely hand dyed by a single artisan and requires tremendous hours to achieve this true black color."
     },
     {
-        "brand": "Vuja De",
-        "title": "VD LOGO",
-        "category": "Sweatshirts",
-        "price": 300,
-        "priceUnit": "USD",
-        "imgs":{
-            "front":"https://i.ibb.co/JBS6zPf/vd-hoodie.jpg",
-            "back":"https://i.ibb.co/dGLHwW4/detail-hoodie.jpg",
-            "model":"https://i.ibb.co/t8ZXyPd/Untitled-Artwork36.jpg"
-        },
-        "description": "The VD LOGO HOODIE is made of 100% cotton with UV-resistant and anti-pilling technology. The fabric is tightly weaved to create a matte-like texture, while deflecting any harmful pollutants and sun rays during contact. The hoodie features a one directional embroidery to reduce thickness and promote mobility around the chest area. Much like our previous Walkman logo, the VD logo is Vuja De’s reiteration of the classic DVD logo in our own reminiscence."
-        },
-        {
-            "brand": "Vuja De",
-            "title": "DUAL ZIP LEATHER JACKET",
-            "category": "Jacket",
-            "price": 1450,
-            "priceUnit": "USD",
-            "imgs":{
-                "front":"https://i.ibb.co/HHDKfjL/leatherjacket-front-min.jpg",
-                "back":"https://i.ibb.co/dGLHwW4/detail-hoodie.jpg",
-                "model":"https://i.ibb.co/WWf37y7/leatherjacket-back-min.jpg"
-            },
-            "description": "The Dual Zip Leather Jacket is hand-crafted with 100% calf leather and features darting along the shoulder blades to create a structured yet fluid silhouette. The jacket features dual Excella zippers with two hidden snap button closures, high quality cupro lining, and two front welt pockets. The cut of the jacket is boxy with wide elongated sleeves allowing room for mobility and comfort.\n We have worked with leather specialists in Japan to ensure quality and integrity of the garments’ production, as well as to support and promote awareness of the rapid decline in artisans around the country."
-            },
-        {
-                "brand": "Maison Mihara Yasuhiro",
-                "title": "Mohair Knit Cardigan",
-                "category": "Sweater",
-                "price": 441,
-                "priceUnit": "USD",
-                "imgs":{
-                    "front":"https://i.ibb.co/s1YzHR0/A11-CD511-001.jpg",
-                    "back":"https://i.ibb.co/9H36KZF/A11-CD511-003.jpg",
-                    "model":"https://i.ibb.co/RcWF0hK/A11-CD511-006.jpg"
-            },
-                "description": "Knit cardigan in mohair.\n Damaged finish.\n V-neck. \n Two side pockets. \n Button closure."
+    "brand": "Vuja De",
+    "title": "VD LOGO",
+    "category": "Sweatshirts",
+    "price": 300,
+    "priceUnit": "USD",
+    "imgs":{
+        "front":"https://i.ibb.co/JBS6zPf/vd-hoodie.jpg",
+        "back":"https://i.ibb.co/dGLHwW4/detail-hoodie.jpg",
+        "model":"https://i.ibb.co/t8ZXyPd/Untitled-Artwork36.jpg"
+},
+    "description": "The VD LOGO HOODIE is made of 100% cotton with UV-resistant and anti-pilling technology. The fabric is tightly weaved to create a matte-like texture, while deflecting any harmful pollutants and sun rays during contact. The hoodie features a one directional embroidery to reduce thickness and promote mobility around the chest area. Much like our previous Walkman logo, the VD logo is Vuja De’s reiteration of the classic DVD logo in our own reminiscence."
+},
+{
+    "brand": "Vuja De",
+    "title": "DUAL ZIP LEATHER JACKET",
+    "category": "Jacket",
+    "price": 1450,
+    "priceUnit": "USD",
+    "imgs":{
+        "front":"https://i.ibb.co/HHDKfjL/leatherjacket-front-min.jpg",
+        "back":"https://i.ibb.co/dGLHwW4/detail-hoodie.jpg",
+        "model":"https://i.ibb.co/WWf37y7/leatherjacket-back-min.jpg"
+},
+    "description": "The Dual Zip Leather Jacket is hand-crafted with 100% calf leather and features darting along the shoulder blades to create a structured yet fluid silhouette. The jacket features dual Excella zippers with two hidden snap button closures, high quality cupro lining, and two front welt pockets. The cut of the jacket is boxy with wide elongated sleeves allowing room for mobility and comfort.\n We have worked with leather specialists in Japan to ensure quality and integrity of the garments’ production, as well as to support and promote awareness of the rapid decline in artisans around the country."
+},
+{
+    "brand": "Maison Mihara Yasuhiro",
+    "title": "Mohair Knit Cardigan",
+    "category": "Sweater",
+    "price": 441,
+    "priceUnit": "USD",
+    "imgs":{
+        "front":"https://i.ibb.co/s1YzHR0/A11-CD511-001.jpg",
+        "back":"https://i.ibb.co/9H36KZF/A11-CD511-003.jpg",
+        "model":"https://i.ibb.co/RcWF0hK/A11-CD511-006.jpg"
+},
+    "description": "Knit cardigan in mohair.\n Damaged finish.\n V-neck. \n Two side pockets. \n Button closure."
 },
 {
     "brand": "Maison Mihara Yasuhiro",
@@ -166,6 +166,70 @@
         "model":"https://i.ibb.co/YkqLx0c/e8c8da4b1b392132c3ec59c1ed2a7358.jpg"
 },
     "description": "Water and wind resistant lightweight nylon with resin-coated inner facing that results in crinkled texture. Unique camouflage pattern acheived through garment dyeing and Stone Island® shooting technique.\n Removable down-filled hood insert with printed logos at back. Remove to deploy upper hood as full mesh facemask. Interior elastic shockcords at hood and hem with snap closures at cuffs. Removable Stone Island® badge at sleeve and printed logos on back. Made exclusively for Supreme."
-}
+},
+{
+    "brand": "Alyx",
+    "title": "6 Moncler 1017 ALYX 9SM Apody Jacket",
+    "category": "Jacket",
+    "price": 1450,
+    "priceUnit": "USD",
+    "imgs":{
+        "front":"https://i.ibb.co/Wgw4dNm/1-A000-10-999-F22-2.png",
+        "back":"https://i.ibb.co/vjzZHBg/1-A000-10-999-F22-3.png",
+        "model":"https://i.ibb.co/nB1vyLF/1-A000-10-999-F22-1.png"
+},
+    "description": "Unisex down puffer with hood with metal rivets, metal zipper, felt logo patch and removable internal balaclava."
+},
+{
+    "brand": "Supreme",
+    "title": "Supreme®/JUNYA WATANABE COMME des GARÇONS MAN GORE-TEX Denim Parka",
+    "category": "Jacket",
+    "price": 468,
+    "priceUnit": "USD",
+    "imgs":{
+        "front":"https://i.ibb.co/q9MLq3x/01a.png",
+        "back":"https://i.ibb.co/tKN8szW/01c.png",
+        "model":"https://i.ibb.co/vxL7x5X/junya-08.png"
+},
+    "description": "Water resistant cotton 12 oz. denim with waterproof, breathable GORE-TEX inner layer and embossed logo lining.\n Full zip closure with zip hand pockets at lower front and interior zip pocket.\n Screen printing by hand results in unique variation."
+},
+{
+    "brand": "Supreme",
+    "title": "Supreme®/Nike® Air Max Plus",
+    "category": "Shoes",
+    "price": 180,
+    "priceUnit": "USD",
+    "imgs":{
+        "front":"https://i.ibb.co/5nG6VRk/01a.png",
+        "back":"https://i.ibb.co/gvTDh9T/01b.png",
+        "model":"https://i.ibb.co/fDg3tbG/01c.png"
+},
+    "description": "Mesh upper with TPU toe cap and suede side and heel panels.\n Polyurethane foam midsole, Tuned Air Cushioning and rubber outsole with TPU shank plate.\n Mesh tongue with reflective panels and co-branded footbed. Raised TPU logos at tongue and heel with custom logo TPU fingers at sides. Made exclusively for Supreme."
+},
+{
+    "brand": "Rick Owens",
+    "title": "Geobasket",
+    "category": "Shoes",
+    "price": 890,
+    "priceUnit": "USD",
+    "imgs":{
+        "front":"https://i.ibb.co/g3KNKtb/Screenshot-1.png",
+        "back":"https://i.ibb.co/YTCPBNH/Screenshot-2.png"
+},
+    "description": "A modern, classic sneaker design in its own right the Rick Owens Geobasket Sneaker is designed with Owens' love for exaggerated proportions\n Constructed with full leather uppers and a luxe leather lining, they sit atop a built up sole unit with an extended toe box and a high stance tongue - a guaranteed head-turner"
+},
+{
+    "brand": "Maison Margiela",
+    "title": "Kiss Shirt",
+    "category": "Shirt",
+    "price": 2000,
+    "priceUnit": "USD",
+    "imgs":{
+        "front":"https://i.ibb.co/3vq55hw/EWIKt-CYXs-AEZy5m.png",
+        "back":"https://i.ibb.co/pyQV7L8/EWIKt-Js-Xk-AA7-YEf.png",
+        "model":"https://i.ibb.co/8gdmhw3/EWIKt-Jy-Ws-AET5-WS.png"
+},
+    "description": "Revered as one of the most iconic pieces ever produced from the artisan, the kisses were said to have been placed by Margiela’s seamstress. 1 of 45"
+},
 
 ]
