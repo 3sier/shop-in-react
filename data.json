@@ -1,235 +1,406 @@
 [
-    {
+  {
     "brand": "Vuja De",
-    "title": "KIMONO-DYED DIVISOR FLARED CARGOS",
+    "title": "Kimono-Dyed Divisor Flared Cargos",
+    "size": "L",
+    "condition": "Very Good",
     "category": "Pants",
     "price": 585,
     "priceUnit": "USD",
-    "imgs":{
-        "front":"https://i.ibb.co/MDMTcfq/vujade-cargos-front.png",
-        "back":"https://i.ibb.co/55TFgFW/vujade-cargos-back.png",
-        "model":"https://i.ibb.co/t8ZXyPd/Untitled-Artwork36.jpg"
-    },
-    "description": "Using 14oz Japanese Selvedge Denim from the mills of Okayama, these denim cargos have been yūzen dyed by artisans in Kyoto to attain an ink black color. Yūzen dyeing also known as kimono dying, is a practice pursed for decades, usually applied on traditional kimono clothing.\n The Kimono Dyed Divisor Flared Cargos features oxidized buttons, rivets, and adjusters with an inside out denim paneling on the outer component of the body. This 14oz Japanese Selvedge Denim is Kimono Dyed and distressed to give off a vintage look.\n Each piece is uniquely hand dyed by a single artisan and requires tremendous hours to achieve this true black color."
-    },
-    {
+    "imgs": {
+      "front": "https://i.ibb.co/MDMTcfq/vujade-cargos-front.png",
+      "back": "https://i.ibb.co/55TFgFW/vujade-cargos-back.png",
+      "model": "https://i.ibb.co/t8ZXyPd/Untitled-Artwork36.jpg"
+    }
+  },
+  {
     "brand": "Vuja De",
-    "title": "VD LOGO",
+    "title": "VD Logo",
+    "size": "M",
+    "condition": "New",
     "category": "Sweatshirts",
     "price": 300,
     "priceUnit": "USD",
-    "imgs":{
-        "front":"https://i.ibb.co/JBS6zPf/vd-hoodie.jpg",
-        "back":"https://i.ibb.co/dGLHwW4/detail-hoodie.jpg",
-        "model":"https://i.ibb.co/t8ZXyPd/Untitled-Artwork36.jpg"
-},
-    "description": "The VD LOGO HOODIE is made of 100% cotton with UV-resistant and anti-pilling technology. The fabric is tightly weaved to create a matte-like texture, while deflecting any harmful pollutants and sun rays during contact. The hoodie features a one directional embroidery to reduce thickness and promote mobility around the chest area. Much like our previous Walkman logo, the VD logo is Vuja De’s reiteration of the classic DVD logo in our own reminiscence."
-},
-{
+    "imgs": {
+      "front": "https://i.ibb.co/JBS6zPf/vd-hoodie.jpg",
+      "back": "https://i.ibb.co/dGLHwW4/detail-hoodie.jpg",
+      "model": "https://i.ibb.co/t8ZXyPd/Untitled-Artwork36.jpg"
+    }
+  },
+  {
     "brand": "Vuja De",
-    "title": "DUAL ZIP LEATHER JACKET",
+    "title": "Dual Zip Leather Jacket",
+    "size": "L",
+    "condition": "Good",
     "category": "Jacket",
     "price": 1450,
     "priceUnit": "USD",
-    "imgs":{
-        "front":"https://i.ibb.co/HHDKfjL/leatherjacket-front-min.jpg",
-        "back":"https://i.ibb.co/dGLHwW4/detail-hoodie.jpg",
-        "model":"https://i.ibb.co/WWf37y7/leatherjacket-back-min.jpg"
-},
-    "description": "The Dual Zip Leather Jacket is hand-crafted with 100% calf leather and features darting along the shoulder blades to create a structured yet fluid silhouette. The jacket features dual Excella zippers with two hidden snap button closures, high quality cupro lining, and two front welt pockets. The cut of the jacket is boxy with wide elongated sleeves allowing room for mobility and comfort.\n We have worked with leather specialists in Japan to ensure quality and integrity of the garments’ production, as well as to support and promote awareness of the rapid decline in artisans around the country."
-},
-{
+    "imgs": {
+      "front": "https://i.ibb.co/HHDKfjL/leatherjacket-front-min.jpg",
+      "back": "https://i.ibb.co/dGLHwW4/detail-hoodie.jpg",
+      "model": "https://i.ibb.co/WWf37y7/leatherjacket-back-min.jpg"
+    }
+  },
+  {
     "brand": "Maison Mihara Yasuhiro",
     "title": "Mohair Knit Cardigan",
+    "size": "S",
+    "condition": "Satisfactory",
     "category": "Sweater",
     "price": 441,
     "priceUnit": "USD",
-    "imgs":{
-        "front":"https://i.ibb.co/s1YzHR0/A11-CD511-001.jpg",
-        "back":"https://i.ibb.co/9H36KZF/A11-CD511-003.jpg",
-        "model":"https://i.ibb.co/RcWF0hK/A11-CD511-006.jpg"
-},
-    "description": "Knit cardigan in mohair.\n Damaged finish.\n V-neck. \n Two side pockets. \n Button closure."
-},
-{
+    "imgs": {
+      "front": "https://i.ibb.co/s1YzHR0/A11-CD511-001.jpg",
+      "back": "https://i.ibb.co/9H36KZF/A11-CD511-003.jpg",
+      "model": "https://i.ibb.co/RcWF0hK/A11-CD511-006.jpg"
+    }
+  },
+  {
     "brand": "Maison Mihara Yasuhiro",
     "title": "Vertical Switching Hoodie",
+    "size": "XL",
+    "condition": "Good",
     "category": "Sweatshirts",
     "price": 414,
     "priceUnit": "USD",
-    "imgs":{
-        "front":"https://i.ibb.co/hD0qbZK/A11-HD571-001.jpg",
-        "back":"https://i.ibb.co/1MRBPyd/A11-HD571-003.jpg",
-        "model":"https://i.ibb.co/QMsRkxn/A11-HD571-005.jpg"
-},
-    "description": "The design combines several different sweatshirts vertically.\n Printed with a smiley face on the front and M on the back.\n With front pockets. \n Stained and damaged."
-},
-{
+    "imgs": {
+      "front": "https://i.ibb.co/hD0qbZK/A11-HD571-001.jpg",
+      "back": "https://i.ibb.co/1MRBPyd/A11-HD571-003.jpg",
+      "model": "https://i.ibb.co/QMsRkxn/A11-HD571-005.jpg"
+    }
+  },
+  {
     "brand": "Rick Owens",
     "title": "Luxor Bias Bootcut",
+    "size": "48",
+    "condition": "Very Good",
     "category": "Pants",
     "price": 675,
     "priceUnit": "USD",
-    "imgs":{
-        "front":"https://i.ibb.co/ThykzqR/DU02-C5352-SBB-09-01.jpg",
-        "back":"https://i.ibb.co/CHjr1vS/DU02-C5352-SBB-09-03.jpg",
-        "model":"https://i.ibb.co/4VRjCFv/DU02-C5352-SBB-09-07.jpg"
-},
-    "description": "Rick Owens fw23 luxor bias bootcut in blackety black stretch denim.\n these bias bootcut are a straight fit, mid-rise, 5 pocket jean with a floor length slight bootcut. they have a button fly, a waistband with belt loops and pocket rivets, and rear patch pockets with topstitching. They feature a bias cut panel with seams that wrap around the leg twice. This lightweight stretch denim is garment treated with a black matte wax finish.\n This garment is treated in an italian wash house based in the veneto area of italy, that produces in smaller treatment baths to reduce water waste and utilize a water purifying process that enables them to recycle a portion of the water used. all of our denim washes are zdhc certified."
-},
-{
+    "imgs": {
+      "front": "https://i.ibb.co/ThykzqR/DU02-C5352-SBB-09-01.jpg",
+      "back": "https://i.ibb.co/CHjr1vS/DU02-C5352-SBB-09-03.jpg",
+      "model": "https://i.ibb.co/4VRjCFv/DU02-C5352-SBB-09-07.jpg"
+    }
+  },
+  {
     "brand": "Rick Owens",
     "title": "Luxor Jumbo Hooded Peter",
+    "size": "XL",
+    "condition": "Very Good",
     "category": "Jacket",
     "price": 4970,
     "priceUnit": "USD",
-    "imgs":{
-        "front":"https://i.ibb.co/3MYPwxP/RU02-C7781-LSHBRA-09-01.jpg",
-        "back":"https://i.ibb.co/MNBymYc/RU02-C7781-LSHBRA-09-03.jpg",
-        "model":"https://i.ibb.co/mFS1MPB/RU02-C7781-LSHBRA-09-09.jpg"
-},
-    "description": "Rick Owens fw23 luxor jumbo hooded peter in black butter lamb shearling radiance.\n This jumbo hooded peter jacket is below hip length with an oversize fit. it features a centre front zipper, long sleeves with low shoulders and a dropped, batwing armhole, two zippered side pockets and a hood\n this version is made of patchwork shearling with radiance lines and is reversible, so can be worn with the fur on the interior or the exterior.\n It has two side front zippered pockets, two internal pockets with snaps and raw cut cuffs and hem edged with rows of signature stitching lines."
-},
-{
+    "imgs": {
+      "front": "https://i.ibb.co/3MYPwxP/RU02-C7781-LSHBRA-09-01.jpg",
+      "back": "https://i.ibb.co/MNBymYc/RU02-C7781-LSHBRA-09-03.jpg",
+      "model": "https://i.ibb.co/mFS1MPB/RU02-C7781-LSHBRA-09-09.jpg"
+    }
+  },
+  {
     "brand": "Rick Owens",
     "title": "Luxor Outershirt",
+    "size": "S",
+    "condition": "Good",
     "category": "Jacket",
     "price": 2325,
     "priceUnit": "USD",
-    "imgs":{
-        "front":"https://i.ibb.co/ySzvGgN/RU02-C7729-LCN-04-01.jpg",
-        "back":"https://i.ibb.co/qd9tnyB/RU02-C7729-LCN-04-03.jpg",
-        "model":"https://i.ibb.co/cCg2nsz/RU02-C7729-LCN-04-09.jpg"
-},
-    "description": "The FogPocket Secret Larry is a hip-length garment adorned with long sleeves. It boasts a stylish deep V-neck, complemented by discreet snap closures. The design incorporates two Fog breast pockets characterized by a vertical opening and internal snap fastenings. Additionally, it features level shoulder seams, a back yoke, snap cuffs, and a hemline with beveled sides.\n This particular version of the FogPocket Secret Larry is fully lined for enhanced comfort and sophistication. It is equipped with two internal zippered pockets, adding a practical and secure element to its overall design."
-},
-{
+    "imgs": {
+      "front": "https://i.ibb.co/ySzvGgN/RU02-C7729-LCN-04-01.jpg",
+      "back": "https://i.ibb.co/qd9tnyB/RU02-C7729-LCN-04-03.jpg",
+      "model": "https://i.ibb.co/cCg2nsz/RU02-C7729-LCN-04-09.jpg"
+    }
+  },
+  {
     "brand": "Balenciaga",
     "title": "Cocoon Kick Jacket",
+    "size": "L",
+    "condition": "New",
     "category": "Jacket",
     "price": 5000,
     "priceUnit": "USD",
-    "imgs":{
-        "front":"https://i.ibb.co/LNc0jbB/Medium-773411-TPS021000-G.jpg",
-        "back":"https://i.ibb.co/3r8cMM7/Medium-773411-TPS021000-I.jpg"
-},
-    "description": "Cocoon Kick Jacket in black vintage effect calfskin\n Vintage effect calfskin\n Large fit\n Cocoon volume\n Shoulder pads\n Made in Italy"
-},
-{
+    "imgs": {
+      "front": "https://i.ibb.co/LNc0jbB/Medium-773411-TPS021000-G.jpg",
+      "back": "https://i.ibb.co/3r8cMM7/Medium-773411-TPS021000-I.jpg"
+    }
+  },
+  {
     "brand": "Moncler",
     "title": "Violier Spider-Man Short Down",
+    "size": "M",
+    "condition": "Good",
     "category": "Jacket",
     "price": 1865,
     "priceUnit": "USD",
-    "imgs":{
-        "front":"https://i.ibb.co/TmG77Zj/311800752-1281972632537491-6343411521022764113-n.jpg",
-        "back":"https://i.ibb.co/2gxQqR2/AAUOU0205-FA05-BLK0001-F23-12.webp",
-        "model":"https://i.ibb.co/2Mz8CC0/311640816-497621448928406-4025553388364059969-n.jpg"
-},
-    "description": "Crafted from water-repellent and lightweight nylon, it features two side zipped pockets and a high neck hood for ultimate versatility, while the glossy texture further enhances the superhero-inspired look."
-},
-{
+    "imgs": {
+      "front": "https://i.ibb.co/TmG77Zj/311800752-1281972632537491-6343411521022764113-n.jpg",
+      "back": "https://i.ibb.co/2gxQqR2/AAUOU0205-FA05-BLK0001-F23-12.webp",
+      "model": "https://i.ibb.co/2Mz8CC0/311640816-497621448928406-4025553388364059969-n.jpg"
+    }
+  },
+  {
     "brand": "Alyx",
     "title": "Arch Logo Bomber Jacket",
+    "size": "XL",
+    "condition": "Satisfactory",
     "category": "Jacket",
     "price": 855,
     "priceUnit": "USD",
-    "imgs":{
-        "front":"https://i.ibb.co/5vBNyPn/AAUOU0205-FA05-BLK0001-F23-1.png",
-        "back":"https://i.ibb.co/KKKYjvq/AAUOU0205-FA05-BLK0001-F23-12.png",
-        "model":"https://i.ibb.co/9NY6GkC/AAUOU0205-FA05-BLK0001-F23-2.png"
-},
-    "description": "Classic Alyx arch stitched logo bomber."
-},
-{
+    "imgs": {
+      "front": "https://i.ibb.co/5vBNyPn/AAUOU0205-FA05-BLK0001-F23-1.png",
+      "back": "https://i.ibb.co/KKKYjvq/AAUOU0205-FA05-BLK0001-F23-12.png",
+      "model": "https://i.ibb.co/9NY6GkC/AAUOU0205-FA05-BLK0001-F23-2.png"
+    }
+  },
+  {
     "brand": "Supreme",
     "title": "Work Jacket",
+    "size": "S",
+    "condition": "New",
     "category": "Jacket",
     "price": 358,
     "priceUnit": "USD",
-    "imgs":{
-        "front":"https://i.ibb.co/bzcD428/Supreme-Toshio-Saeki-Supreme-Work-Jacket-Black-1.jpg",
-        "back":"https://i.ibb.co/cvkbPKH/02c.png",
-        "model":"https://i.ibb.co/CtgSBbn/Screenshot-1.png"
-},
-    "description": "Cotton blend with quilted taffeta lining and full zip closure.\n Hand pockets at lower front, utility pocket on sleeve and interior chest pocket.\n Woven and printed patches at front, back and sleeves. Original artwork by Toshio Saeki."
-},
-{
+    "imgs": {
+      "front": "https://i.ibb.co/bzcD428/Supreme-Toshio-Saeki-Supreme-Work-Jacket-Black-1.jpg",
+      "back": "https://i.ibb.co/cvkbPKH/02c.png",
+      "model": "https://i.ibb.co/CtgSBbn/Screenshot-1.png"
+    }
+  },
+  {
     "brand": "Supreme",
     "title": "Painted Camo Crinkle Down Jacket",
+    "size": "L",
+    "condition": "Good",
     "category": "Jacket",
     "price": 848,
     "priceUnit": "USD",
-    "imgs":{
-        "front":"https://i.ibb.co/L6xxXML/01a.png",
-        "back":"https://i.ibb.co/Vv46DHv/01e.png",
-        "model":"https://i.ibb.co/YkqLx0c/e8c8da4b1b392132c3ec59c1ed2a7358.jpg"
-},
-    "description": "Water and wind resistant lightweight nylon with resin-coated inner facing that results in crinkled texture. Unique camouflage pattern acheived through garment dyeing and Stone Island® shooting technique.\n Removable down-filled hood insert with printed logos at back. Remove to deploy upper hood as full mesh facemask. Interior elastic shockcords at hood and hem with snap closures at cuffs. Removable Stone Island® badge at sleeve and printed logos on back. Made exclusively for Supreme."
-},
-{
+    "imgs": {
+      "front": "https://i.ibb.co/L6xxXML/01a.png",
+      "back": "https://i.ibb.co/Vv46DHv/01e.png",
+      "model": "https://i.ibb.co/YkqLx0c/e8c8da4b1b392132c3ec59c1ed2a7358.jpg"
+    }
+  },
+  {
     "brand": "Alyx",
     "title": "6 Moncler 1017 ALYX 9SM Apody Jacket",
+    "size": "XL",
+    "condition": "Satisfactory",
     "category": "Jacket",
     "price": 1450,
     "priceUnit": "USD",
-    "imgs":{
-        "front":"https://i.ibb.co/Wgw4dNm/1-A000-10-999-F22-2.png",
-        "back":"https://i.ibb.co/vjzZHBg/1-A000-10-999-F22-3.png",
-        "model":"https://i.ibb.co/nB1vyLF/1-A000-10-999-F22-1.png"
-},
-    "description": "Unisex down puffer with hood with metal rivets, metal zipper, felt logo patch and removable internal balaclava."
-},
-{
+    "imgs": {
+      "front": "https://i.ibb.co/Wgw4dNm/1-A000-10-999-F22-2.png",
+      "back": "https://i.ibb.co/vjzZHBg/1-A000-10-999-F22-3.png",
+      "model": "https://i.ibb.co/nB1vyLF/1-A000-10-999-F22-1.png"
+    }
+  },
+  {
     "brand": "Supreme",
     "title": "Supreme®/JUNYA WATANABE COMME des GARÇONS MAN GORE-TEX Denim Parka",
+    "size": "M",
+    "condition": "Very Good",
     "category": "Jacket",
     "price": 468,
     "priceUnit": "USD",
-    "imgs":{
-        "front":"https://i.ibb.co/q9MLq3x/01a.png",
-        "back":"https://i.ibb.co/tKN8szW/01c.png",
-        "model":"https://i.ibb.co/vxL7x5X/junya-08.png"
-},
-    "description": "Water resistant cotton 12 oz. denim with waterproof, breathable GORE-TEX inner layer and embossed logo lining.\n Full zip closure with zip hand pockets at lower front and interior zip pocket.\n Screen printing by hand results in unique variation."
-},
-{
+    "imgs": {
+      "front": "https://i.ibb.co/q9MLq3x/01a.png",
+      "back": "https://i.ibb.co/tKN8szW/01c.png",
+      "model": "https://i.ibb.co/vxL7x5X/junya-08.png"
+    }
+  },
+  {
     "brand": "Supreme",
     "title": "Supreme®/Nike® Air Max Plus",
+    "size": "10",
+    "condition": "New",
     "category": "Shoes",
     "price": 180,
     "priceUnit": "USD",
-    "imgs":{
-        "front":"https://i.ibb.co/5nG6VRk/01a.png",
-        "back":"https://i.ibb.co/gvTDh9T/01b.png",
-        "model":"https://i.ibb.co/fDg3tbG/01c.png"
-},
-    "description": "Mesh upper with TPU toe cap and suede side and heel panels.\n Polyurethane foam midsole, Tuned Air Cushioning and rubber outsole with TPU shank plate.\n Mesh tongue with reflective panels and co-branded footbed. Raised TPU logos at tongue and heel with custom logo TPU fingers at sides. Made exclusively for Supreme."
-},
-{
+    "imgs": {
+      "front": "https://i.ibb.co/5nG6VRk/01a.png",
+      "back": "https://i.ibb.co/gvTDh9T/01b.png",
+      "model": "https://i.ibb.co/fDg3tbG/01c.png"
+    }
+  },
+  {
     "brand": "Rick Owens",
     "title": "Geobasket",
+    "size": "7.5",
+    "condition": "Good",
     "category": "Shoes",
     "price": 890,
     "priceUnit": "USD",
-    "imgs":{
-        "front":"https://i.ibb.co/g3KNKtb/Screenshot-1.png",
-        "back":"https://i.ibb.co/YTCPBNH/Screenshot-2.png"
-},
-    "description": "A modern, classic sneaker design in its own right the Rick Owens Geobasket Sneaker is designed with Owens' love for exaggerated proportions\n Constructed with full leather uppers and a luxe leather lining, they sit atop a built up sole unit with an extended toe box and a high stance tongue - a guaranteed head-turner"
-},
-{
+    "imgs": {
+      "front": "https://i.ibb.co/g3KNKtb/Screenshot-1.png",
+      "back": "https://i.ibb.co/YTCPBNH/Screenshot-2.png"
+    }
+  },
+  {
     "brand": "Maison Margiela",
     "title": "Kiss Shirt",
+    "size": "L",
+    "condition": "Very Good",
     "category": "Shirt",
     "price": 2000,
     "priceUnit": "USD",
-    "imgs":{
-        "front":"https://i.ibb.co/3vq55hw/EWIKt-CYXs-AEZy5m.png",
-        "back":"https://i.ibb.co/pyQV7L8/EWIKt-Js-Xk-AA7-YEf.png",
-        "model":"https://i.ibb.co/8gdmhw3/EWIKt-Jy-Ws-AET5-WS.png"
-},
-    "description": "Revered as one of the most iconic pieces ever produced from the artisan, the kisses were said to have been placed by Margiela’s seamstress. 1 of 45"
-},
-
+    "imgs": {
+      "front": "https://i.ibb.co/3vq55hw/EWIKt-CYXs-AEZy5m.png",
+      "back": "https://i.ibb.co/pyQV7L8/EWIKt-Js-Xk-AA7-YEf.png",
+      "model": "https://i.ibb.co/8gdmhw3/EWIKt-Jy-Ws-AET5-WS.png"
+    }
+  },
+  {
+    "brand": "Chrome Hearts",
+    "title": "Keeper Ring",
+    "size": "9.5",
+    "condition": "New",
+    "category": "Accessories",
+    "price": 484,
+    "priceUnit": "USD",
+    "imgs": {
+      "front": "https://i.ibb.co/3r9Q13P/260669104-307283748112979-405966407569526974-n-2200x.png",
+      "back": "https://i.ibb.co/ZMQy549/273168242-284007737163117-3206669763043064825-n-2200x.png",
+      "model": "https://i.ibb.co/zmr373R/272997749-666795991028718-8448798615871703596-n-2200x.png"
+    }
+  },
+  {
+    "brand": "B.B Simon",
+    "title": "adabelle western Black Pearl",
+    "size": "38",
+    "condition": "New",
+    "category": "Accessories",
+    "price": 395,
+    "priceUnit": "USD",
+    "imgs": {
+      "front": "https://i.ibb.co/3sZyr5b/IMG-9188-1-S.png",
+      "back": "https://i.ibb.co/C8D89Yv/IMG-9188-4-S.png",
+      "model": "https://i.ibb.co/sVxFZZF/IMG-9188-2-S.png"
+    }
+  },
+  {
+    "brand": "Raf Simons",
+    "title": "SS03 Consumed Redux Parachute Cargos",
+    "size": "46",
+    "condition": "Good",
+    "category": "Pants",
+    "price": 1349,
+    "priceUnit": "USD",
+    "imgs": {
+      "front": "https://i.ibb.co/HgSk87d/DSF2620-2200x.png",
+      "back": "https://i.ibb.co/c1HM1bm/DSCF1950-2200x.png",
+      "model": "https://i.ibb.co/XSd38gf/DSCF1948-2200x.png"
+    }
+  },
+  {
+    "brand": "Rick Owens",
+    "title": "Mainline Blistered Lambskin Calf Sock Ramone",
+    "size": "37",
+    "condition": "Satisfactory",
+    "category": "Shoes",
+    "price": 539,
+    "priceUnit": "USD",
+    "imgs": {
+      "front": "https://i.ibb.co/ZgBx2df/DSF3289-800-2200x.png",
+      "back": "https://i.ibb.co/nRwWB7T/DSF3288-800-2200x.png",
+      "model": "https://i.ibb.co/6ZMsKK5/DSF3286-800-2200x.png"
+    }
+  },
+  {
+    "brand": "Kapital",
+    "title": "Kountry No. 4 3in1 Patchwork Canvas Military Backpack",
+    "size": "OS",
+    "condition": "Good",
+    "category": "Accessories",
+    "price": 1023,
+    "priceUnit": "USD",
+    "imgs": {
+      "front": "https://i.ibb.co/DYgDnZk/DSCF2286-ee44c2a4-d1d9-4c13-bade-4d55272aed52-2200x.png",
+      "back": "https://i.ibb.co/HhVLLfW/DSCF2298-2200x.png",
+      "model": "https://i.ibb.co/HVbkHCm/DSCF2301-2200x.png"
+    }
+  },
+  {
+    "brand": "C.P. Company",
+    "title": "Nylon Goggle Jacket",
+    "size": "L",
+    "condition": "Very Good",
+    "category": "Jacket",
+    "price": 297,
+    "priceUnit": "USD",
+    "imgs": {
+      "front": "https://i.ibb.co/R4zGqyk/DSF2662-2200x.png",
+      "back": "https://i.ibb.co/TgLhvV1/DSF2666-2200x.png",
+      "model": "https://i.ibb.co/XVBqG02/DSF2667-2200x.png"
+    }
+  },
+  {
+    "brand": "Saint Laurent",
+    "title": "Reversible Harrington Jacket",
+    "size": "M",
+    "condition": "Good",
+    "category": "Jacket",
+    "price": 186,
+    "priceUnit": "USD",
+    "imgs": {
+      "front": "https://i.ibb.co/ZLB3mP9/DSF3050-2200x.png",
+      "back": "https://i.ibb.co/WWSjrQH/DSF3055-2200x.png",
+      "model": "https://i.ibb.co/W5gGdr4/DSF3053-2200x.png"
+    }
+  },
+  {
+    "brand": "Undercover",
+    "title": "Arts and Crafts 85 Denim Pants",
+    "size": "46",
+    "condition": "Very Good",
+    "category": "Pants",
+    "price": 6623,
+    "priceUnit": "USD",
+    "imgs": {
+      "front": "https://i.ibb.co/XYHqcyJ/DSF3524-2200x.png",
+      "back": "https://i.ibb.co/LJ5Jdyr/DSF3527-2200x.png",
+      "model": "https://i.ibb.co/R4CXbKd/DSF3525-2200x.png"
+    }
+  },
+  {
+    "brand": "Helmut Lang",
+    "title": "Bondage Cashmere Sweater",
+    "size": "L",
+    "condition": "New",
+    "category": "Sweater",
+    "price": 306,
+    "priceUnit": "USD",
+    "imgs": {
+      "front": "https://i.ibb.co/LrPZhq4/DSF3835-2200x.png",
+      "back": "https://i.ibb.co/Wk4jShX/DSF2453-2200x.png",
+      "model": ""
+    }
+  },
+  {
+    "brand": "Helmut Lang",
+    "title": "Blky Canvas",
+    "size": "9",
+    "condition": "New",
+    "category": "Shoes",
+    "price": 215,
+    "priceUnit": "USD",
+    "imgs": {
+      "front": "https://i.ibb.co/z4Y6zQh/S-234012685-1024x.png",
+      "back": "https://i.ibb.co/4dfZRMn/S-234012687-1024x.png",
+      "model": "https://i.ibb.co/dJq9x2x/S-234012688-1024x.png"
+    }
+  },
+  {
+    "brand": "Number (N)ine",
+    "title": "Takahira Miyashita",
+    "size": "9",
+    "condition": "New",
+    "category": "Shoes",
+    "price": 215,
+    "priceUnit": "USD",
+    "imgs": {
+      "front": "https://i.ibb.co/z4Y6zQh/S-234012685-1024x.png",
+      "back": "https://i.ibb.co/4dfZRMn/S-234012687-1024x.png",
+      "model": "https://i.ibb.co/dJq9x2x/S-234012688-1024x.png"
+    }
+  }
 ]
