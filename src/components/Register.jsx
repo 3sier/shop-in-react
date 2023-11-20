@@ -2,12 +2,14 @@ import React, { useState } from "react";
 
 const Register = () => {
   const [username, setUsername] = useState("");
+  const [mail, setMail] = useState("");
   const [password, setPassword] = useState("");
 
   const handleRegister = () => {
     alert(`Registered with username: ${username} and password: ${password}`);
 
     setUsername("");
+    setMail("");
     setPassword("");
   };
 
@@ -19,6 +21,12 @@ const Register = () => {
         placeholder="Username"
         value={username}
         onChange={(e) => setUsername(e.target.value)}
+      />
+      <input
+        type="mail"
+        placeholder="Mail"
+        value={mail}
+        onChange={(e) => setMail(e.target.value)}
       />
       <input
         type="password"

@@ -372,14 +372,14 @@
     "imgs": {
       "front": "https://i.ibb.co/LrPZhq4/DSF3835-2200x.png",
       "back": "https://i.ibb.co/Wk4jShX/DSF2453-2200x.png",
-      "model": ""
+      "model": "https://i.ibb.co/SJ64vVD/Screenshot-1.png"
     }
   },
   {
     "brand": "Helmut Lang",
     "title": "Blky Canvas",
     "size": "9",
-    "condition": "New",
+    "condition": "Satisfactory",
     "category": "Shoes",
     "price": 215,
     "priceUnit": "USD",
@@ -393,7 +393,7 @@
     "brand": "Number (N)ine",
     "title": "Zigzag Jacquard Cardigan",
     "size": "M",
-    "condition": "New",
+    "condition": "Very Good",
     "category": "Sweater",
     "price": 128,
     "priceUnit": "USD",
@@ -415,6 +415,34 @@
       "front": "https://i.ibb.co/HTfLmKF/1699029067-Photo-Room-png-Photo-Room.png",
       "back": "https://i.ibb.co/w7fJDvb/1699029067-2-Photo-Room-png-Photo-Room.png",
       "model": "https://i.ibb.co/qdYhrFb/1699029067-1-Photo-Room-png-Photo-Room.png"
+    }
+  },
+  {
+    "brand": "Vetements",
+    "title": "Zürich Crewneck Sweater",
+    "size": "S",
+    "condition": "Good",
+    "category": "Sweatshirts",
+    "price": 724,
+    "priceUnit": "USD",
+    "imgs": {
+      "front": "https://i.ibb.co/rvPg0VF/DSF3096-1445x.jpg",
+      "back": "https://i.ibb.co/WK0MjnN/DSF3098-1445x.jpg",
+      "model": "https://i.ibb.co/HPkLtCD/DSF3099-1946x.jpg"
+    }
+  },
+  {
+    "brand": "Balmain",
+    "title": "Bucket Hat",
+    "size": "OS",
+    "condition": "Good",
+    "category": "Hats",
+    "price": 76,
+    "priceUnit": "USD",
+    "imgs": {
+      "front": "https://i.ibb.co/P1CT9ZB/Screenshot-1.png",
+      "back": "https://i.ibb.co/WK0MjnN/DSF3098-1445x.jpg",
+      "model": "https://i.ibb.co/dLDxZh2/Screenshot-2.png"
     }
   }
 ]
