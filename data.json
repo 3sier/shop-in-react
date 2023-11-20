@@ -402,5 +402,19 @@
       "back": "https://i.ibb.co/WBzNYtd/79315469b-b-14-500.jpg",
       "model": "https://i.ibb.co/FJwvjpy/79315469b-b-15-500.jpg"
     }
+  },
+  {
+    "brand": "Undercover",
+    "title": "Hybrid Jeans 02AW Rebelgods",
+    "size": "30",
+    "condition": "New",
+    "category": "Pants",
+    "price": 528,
+    "priceUnit": "USD",
+    "imgs": {
+      "front": "https://i.ibb.co/HTfLmKF/1699029067-Photo-Room-png-Photo-Room.png",
+      "back": "https://i.ibb.co/w7fJDvb/1699029067-2-Photo-Room-png-Photo-Room.png",
+      "model": "https://i.ibb.co/qdYhrFb/1699029067-1-Photo-Room-png-Photo-Room.png"
+    }
   }
 ]

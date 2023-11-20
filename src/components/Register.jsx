@@ -1,17 +1,14 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 
 const Register = () => {
-  const [username, setUsername] = useState('');
-  const [password, setPassword] = useState('');
+  const [username, setUsername] = useState("");
+  const [password, setPassword] = useState("");
 
   const handleRegister = () => {
-    // Perform register logic here
-    // You can use the username and password state variables to access the user's input
-
     alert(`Registered with username: ${username} and password: ${password}`);
 
-    setUsername('');
-    setPassword('');
+    setUsername("");
+    setPassword("");
   };
 
   return (

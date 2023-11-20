@@ -1,13 +1,10 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 
 const Login = () => {
-  const [username, setUsername] = useState('');
-  const [password, setPassword] = useState('');
+  const [username, setUsername] = useState("");
+  const [password, setPassword] = useState("");
 
-  const handleLogin = () => {
-    // Perform login logic here
-    // You can use the username and password state variables to access the user's input
-  };
+  const handleLogin = () => {};
 
   return (
     <div className="login-container">
@@ -30,6 +27,5 @@ const Login = () => {
 };
 
 export default Login;
-
 
 // TODO: Do the register logic
