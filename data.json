@@ -391,16 +391,16 @@
   },
   {
     "brand": "Number (N)ine",
-    "title": "Takahira Miyashita",
-    "size": "9",
+    "title": "Zigzag Jacquard Cardigan",
+    "size": "M",
     "condition": "New",
-    "category": "Shoes",
-    "price": 215,
+    "category": "Sweater",
+    "price": 128,
     "priceUnit": "USD",
     "imgs": {
-      "front": "https://i.ibb.co/z4Y6zQh/S-234012685-1024x.png",
-      "back": "https://i.ibb.co/4dfZRMn/S-234012687-1024x.png",
-      "model": "https://i.ibb.co/dJq9x2x/S-234012688-1024x.png"
+      "front": "https://i.ibb.co/vzzg6px/79315469b-45-d-500.jpg",
+      "back": "https://i.ibb.co/WBzNYtd/79315469b-b-14-500.jpg",
+      "model": "https://i.ibb.co/FJwvjpy/79315469b-b-15-500.jpg"
     }
   }
 ]
