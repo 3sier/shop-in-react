@@ -1,7 +1,8 @@
 import React, { useState } from "react";
+import "./Login.css";
 
 const Login = () => {
-  const [username, setUsername] = useState("");
+  const [mail, setMail] = useState("");
   const [password, setPassword] = useState("");
 
   const handleLogin = () => {};
@@ -10,10 +11,10 @@ const Login = () => {
     <div className="login-container">
       <h1>Login</h1>
       <input
-        type="text"
-        placeholder="Username"
-        value={username}
-        onChange={(e) => setUsername(e.target.value)}
+        type="mail"
+        placeholder="Mail"
+        value={mail}
+        onChange={(e) => setMail(e.target.value)}
       />
       <input
         type="password"

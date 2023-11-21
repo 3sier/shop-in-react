@@ -1,18 +1,22 @@
-import React from 'react'
-import './App.css'
-import Login from './components/Login'
-import Register from './components/Register'
-
-
-function App() {
-
-
+import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Login from "./components/Login/Login";
+import Register from "./components/Register/Register";
+import "./App.css";
+import Footer from "./components/Footer/Footer";
+import "./components/Footer/Footer.css";
+const App = () => {
   return (
-    <>
-      <Login />
-      <Register />
-    </>
-  )
-}
+    <div className="container">
+      <BrowserRouter>
+        <Routes>
+          <Route path="/login" element={<Login />} />
+          <Route path="/register" element={<Register />} />
+        </Routes>
+      </BrowserRouter>
+      <Footer />
+    </div>
+  );
+};
 
-export default App
+export default App;
