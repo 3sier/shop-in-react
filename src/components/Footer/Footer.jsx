@@ -1,70 +1,22 @@
-import React from "react";
-import "./Footer.css";
+import React from 'react';
 
 const Footer = () => {
   return (
-    <div className="footer">
-      <div className="sb__footer section__padding">
-        <div className="sb__footer__links">
-          <div className="sb__footer__links__div">
-            <h4>Social Media</h4>
-            <div className="socialmedia">
-              <p>
-                <img
-                  style={{ width: "10px", height: "10px" }}
-                  src="https://static.vecteezy.com/system/resources/previews/023/986/739/original/youtube-logo-youtube-logo-transparent-youtube-icon-transparent-free-free-png.png"
-                  alt="youtube"
-                />
-              </p>
-              <p>
-                <img
-                  style={{ width: "10px", height: "10px" }}
-                  src="https://media-assets.grailed.com/prd/misc/4RVKRZKGVV2AOOUVNYIXVXC6TKRYYVRCBRSR4A"
-                  alt="instagram"
-                />
-              </p>
-              <p>
-                <img
-                  style={{ width: "10px", height: "10px" }}
-                  src="https://cdn-icons-png.flaticon.com/512/38/38401.png"
-                  alt="github"
-                />
-              </p>
-              <p>
-                <img
-                  style={{ width: "10px", height: "10px" }}
-                  src="https://media-assets.grailed.com/prd/misc/ZHGE-Y7ODBF_GRHJH6DUUMJA_LN1KUX8KSSSSA"
-                  alt="twitter"
-                />
-              </p>
-            </div>
-          </div>
-        </div>
-        <hr></hr>
-        <div className="sb__footer-below">
-          <div className="sb__footer-copyright">
-            <p>Asier © {new Date().getFullYear()} </p>
-          </div>
-          <div className="sb__footer-below-links">
-            <a href="/Terms">
-              <div>
-                <p>Terms of Use</p>
-              </div>
-            </a>
-            <a href="/privacy">
-              <div>
-                <p>Privacy</p>
-              </div>
-            </a>
-            <a href="/about">
-              <div>
-                <p>About</p>
-              </div>
-            </a>
-          </div>
-        </div>
+    <footer className="footer">
+      <div className="footer-links">
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+        <a href="#">Terms</a>
       </div>
-    </div>
+      <div className="social-media">
+        <img src="https://imgs.search.brave.com/3Pk3IOdxIjkHFc8m96wM_5ST2uaLKKRkZNdDD3fnO_Y/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9hc3Nl/dHMuc3RpY2twbmcu/Y29tL2ltYWdlcy81/ZWNlYzc4NjczZTQ0/NDAwMDRmMDllNzcu/cG5n" alt="instagram" />
+        <img src="https://imgs.search.brave.com/LTQt0l9P4lWuIMiktMBeG_HrRXkgE-8e2snKSTIVn-A/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9jZG4u/aWNvbi1pY29ucy5j/b20vaWNvbnMyLzkz/My9QTkcvNTEyL3R3/aXR0ZXItbG9nby1v/bi1ibGFjay1iYWNr/Z3JvdW5kX2ljb24t/aWNvbnMuY29tXzcy/NTAzLnBuZw" alt="twitter" />
+        <img src="https://imgs.search.brave.com/ZkPv_EZeGWA_dhQpuEobfF3k_MPeH7DRK8BW2bXxp60/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9mcmVl/bG9nb3BuZy5jb20v/aW1hZ2VzL2FsbF9p/bWcvMTY1NjUwMzgy/M2JsYWNrLXlvdXR1/YmUtbG9nby5wbmc" alt="youtube" />
+      </div>
+      <p className="footer-copyright">
+        &copy; {new Date().getFullYear()} . All rights reserved.
+      </p>
+    </footer>
   );
 };
 
