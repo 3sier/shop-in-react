@@ -15,7 +15,7 @@ const App = () => {
       <BrowserRouter>
         <Navbar />
         <Routes>
-          <Route path="/" element={<Landing />} /> {/* Add this route for the landing page */}
+          <Route path="/" element={<Landing />} />{" "}
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
         </Routes>

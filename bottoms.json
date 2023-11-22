@@ -1,0 +1,72 @@
+[
+  {
+    "brand": "Vuja De",
+    "title": "Kimono-Dyed Divisor Flared Cargos",
+    "size": "L",
+    "condition": "Very Good",
+    "category": "Pants",
+    "price": 585,
+    "priceUnit": "USD",
+    "imgs": {
+      "front": "https://i.ibb.co/MDMTcfq/vujade-cargos-front.png",
+      "back": "https://i.ibb.co/55TFgFW/vujade-cargos-back.png",
+      "model": "https://i.ibb.co/t8ZXyPd/Untitled-Artwork36.jpg"
+    }
+  },
+  {
+    "brand": "Rick Owens",
+    "title": "Luxor Bias Bootcut",
+    "size": "48",
+    "condition": "Very Good",
+    "category": "Pants",
+    "price": 675,
+    "priceUnit": "USD",
+    "imgs": {
+      "front": "https://i.ibb.co/ThykzqR/DU02-C5352-SBB-09-01.jpg",
+      "back": "https://i.ibb.co/CHjr1vS/DU02-C5352-SBB-09-03.jpg",
+      "model": "https://i.ibb.co/4VRjCFv/DU02-C5352-SBB-09-07.jpg"
+    }
+  },
+  {
+    "brand": "Raf Simons",
+    "title": "SS03 Consumed Redux Parachute Cargos",
+    "size": "46",
+    "condition": "Good",
+    "category": "Pants",
+    "price": 1349,
+    "priceUnit": "USD",
+    "imgs": {
+      "front": "https://i.ibb.co/HgSk87d/DSF2620-2200x.png",
+      "back": "https://i.ibb.co/c1HM1bm/DSCF1950-2200x.png",
+      "model": "https://i.ibb.co/XSd38gf/DSCF1948-2200x.png"
+    }
+  },
+  {
+    "brand": "Undercover",
+    "title": "Arts and Crafts 85 Denim Pants",
+    "size": "46",
+    "condition": "Very Good",
+    "category": "Pants",
+    "price": 6623,
+    "priceUnit": "USD",
+    "imgs": {
+      "front": "https://i.ibb.co/XYHqcyJ/DSF3524-2200x.png",
+      "back": "https://i.ibb.co/LJ5Jdyr/DSF3527-2200x.png",
+      "model": "https://i.ibb.co/R4CXbKd/DSF3525-2200x.png"
+    }
+  },
+  {
+    "brand": "Undercover",
+    "title": "Hybrid Jeans 02AW Rebelgods",
+    "size": "30",
+    "condition": "New",
+    "category": "Pants",
+    "price": 528,
+    "priceUnit": "USD",
+    "imgs": {
+      "front": "https://i.ibb.co/HTfLmKF/1699029067-Photo-Room-png-Photo-Room.png",
+      "back": "https://i.ibb.co/w7fJDvb/1699029067-2-Photo-Room-png-Photo-Room.png",
+      "model": "https://i.ibb.co/qdYhrFb/1699029067-1-Photo-Room-png-Photo-Room.png"
+    }
+  }
+]

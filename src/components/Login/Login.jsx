@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./Login.css";
 
 const Login = () => {
-  const [mail, setMail] = useState("");
+  const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
   const handleLogin = () => {};
@@ -11,10 +11,10 @@ const Login = () => {
     <div className="login-container">
       <h1>Login</h1>
       <input
-        type="mail"
-        placeholder="Mail"
-        value={mail}
-        onChange={(e) => setMail(e.target.value)}
+        type="email"
+        placeholder="Email"
+        value={email}
+        onChange={(e) => setEmail(e.target.value)}
       />
       <input
         type="password"
@@ -28,5 +28,3 @@ const Login = () => {
 };
 
 export default Login;
-
-// TODO: Do the register logic

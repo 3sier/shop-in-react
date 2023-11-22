@@ -2,14 +2,16 @@ import React, { useState } from "react";
 
 const Register = () => {
   const [username, setUsername] = useState("");
-  const [mail, setMail] = useState("");
+  const [email, setEmail] = useState("");
+  const [name, setName] = useState("");
   const [password, setPassword] = useState("");
 
   const handleRegister = () => {
     alert(`Registered with username: ${username} and password: ${password}`);
 
     setUsername("");
-    setMail("");
+    setName("");
+    setEmail("");
     setPassword("");
   };
 
@@ -23,10 +25,16 @@ const Register = () => {
         onChange={(e) => setUsername(e.target.value)}
       />
       <input
-        type="mail"
-        placeholder="Mail"
-        value={mail}
-        onChange={(e) => setMail(e.target.value)}
+        type="text"
+        placeholder="Name"
+        value={name}
+        onChange={(e) => setName(e.target.value)}
+      />
+      <input
+        type="email"
+        placeholder="Email"
+        value={email}
+        onChange={(e) => setEmail(e.target.value)}
       />
       <input
         type="password"
@@ -40,5 +48,3 @@ const Register = () => {
 };
 
 export default Register;
-
-// TODO: Do the login logic
