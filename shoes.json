@@ -1,0 +1,57 @@
+[
+  {
+    "brand": "Supreme",
+    "title": "Supreme®/Nike® Air Max Plus",
+    "size": "10",
+    "condition": "New",
+    "category": "Shoes",
+    "price": 180,
+    "priceUnit": "USD",
+    "imgs": {
+      "front": "https://i.ibb.co/5nG6VRk/01a.png",
+      "back": "https://i.ibb.co/gvTDh9T/01b.png",
+      "model": "https://i.ibb.co/fDg3tbG/01c.png"
+    }
+  },
+  {
+    "brand": "Rick Owens",
+    "title": "Geobasket",
+    "size": "7.5",
+    "condition": "Good",
+    "category": "Shoes",
+    "price": 890,
+    "priceUnit": "USD",
+    "imgs": {
+      "front": "https://i.ibb.co/g3KNKtb/Screenshot-1.png",
+      "back": "https://i.ibb.co/YTCPBNH/Screenshot-2.png"
+    }
+  },
+  {
+    "brand": "Rick Owens",
+    "title": "Mainline Blistered Lambskin Calf Sock Ramone",
+    "size": "37",
+    "condition": "Satisfactory",
+    "category": "Shoes",
+    "price": 539,
+    "priceUnit": "USD",
+    "imgs": {
+      "front": "https://i.ibb.co/ZgBx2df/DSF3289-800-2200x.png",
+      "back": "https://i.ibb.co/nRwWB7T/DSF3288-800-2200x.png",
+      "model": "https://i.ibb.co/6ZMsKK5/DSF3286-800-2200x.png"
+    }
+  },
+  {
+    "brand": "Helmut Lang",
+    "title": "Blky Canvas",
+    "size": "9",
+    "condition": "Satisfactory",
+    "category": "Shoes",
+    "price": 215,
+    "priceUnit": "USD",
+    "imgs": {
+      "front": "https://i.ibb.co/z4Y6zQh/S-234012685-1024x.png",
+      "back": "https://i.ibb.co/4dfZRMn/S-234012687-1024x.png",
+      "model": "https://i.ibb.co/dJq9x2x/S-234012688-1024x.png"
+    }
+  }
+]

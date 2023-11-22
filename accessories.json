@@ -1,0 +1,58 @@
+[
+  {
+    "brand": "Chrome Hearts",
+    "title": "Keeper Ring",
+    "size": "9.5",
+    "condition": "New",
+    "category": "Accessories",
+    "price": 484,
+    "priceUnit": "USD",
+    "imgs": {
+      "front": "https://i.ibb.co/3r9Q13P/260669104-307283748112979-405966407569526974-n-2200x.png",
+      "back": "https://i.ibb.co/ZMQy549/273168242-284007737163117-3206669763043064825-n-2200x.png",
+      "model": "https://i.ibb.co/zmr373R/272997749-666795991028718-8448798615871703596-n-2200x.png"
+    }
+  },
+  {
+    "brand": "B.B Simon",
+    "title": "adabelle western Black Pearl",
+    "size": "38",
+    "condition": "New",
+    "category": "Accessories",
+    "price": 395,
+    "priceUnit": "USD",
+    "imgs": {
+      "front": "https://i.ibb.co/3sZyr5b/IMG-9188-1-S.png",
+      "back": "https://i.ibb.co/C8D89Yv/IMG-9188-4-S.png",
+      "model": "https://i.ibb.co/sVxFZZF/IMG-9188-2-S.png"
+    }
+  },
+  {
+    "brand": "Kapital",
+    "title": "Kountry No. 4 3in1 Patchwork Canvas Military Backpack",
+    "size": "OS",
+    "condition": "Good",
+    "category": "Accessories",
+    "price": 1023,
+    "priceUnit": "USD",
+    "imgs": {
+      "front": "https://i.ibb.co/DYgDnZk/DSCF2286-ee44c2a4-d1d9-4c13-bade-4d55272aed52-2200x.png",
+      "back": "https://i.ibb.co/HhVLLfW/DSCF2298-2200x.png",
+      "model": "https://i.ibb.co/HVbkHCm/DSCF2301-2200x.png"
+    }
+  },
+  {
+    "brand": "Balmain",
+    "title": "Bucket Hat",
+    "size": "OS",
+    "condition": "Good",
+    "category": "Hats",
+    "price": 76,
+    "priceUnit": "USD",
+    "imgs": {
+      "front": "https://i.ibb.co/P1CT9ZB/Screenshot-1.png",
+      "back": "https://i.ibb.co/WK0MjnN/DSF3098-1445x.jpg",
+      "model": "https://i.ibb.co/dLDxZh2/Screenshot-2.png"
+    }
+  }
+]
