@@ -8,6 +8,8 @@ import Footer from "./components/Footer/Footer";
 import "./components/Footer/Footer.css";
 import Navbar from "./components/Navbar/Navbar";
 import "./components/Navbar/Navbar.css";
+import Home from "./components/home/Home";
+import "./components/Home/Home.css";
 
 const App = () => {
   return (
@@ -15,9 +17,10 @@ const App = () => {
       <BrowserRouter>
         <Navbar />
         <Routes>
-          <Route path="/" element={<Landing />} />{" "}
+          <Route path="/" element={<landing />} />{" "}
+          <Route path="/home" element={<Home />} />
           <Route path="/login" element={<Login />} />
-          <Route path="/signup" element={<Register />} />
+          <Route path="/register" element={<Register />} />
         </Routes>
       </BrowserRouter>
       <Footer />

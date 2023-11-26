@@ -43,3 +43,18 @@
   margin-left: 10px;
   cursor: pointer;
 }
+.navbar-login {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.navbar-signup {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  margin-left: 1px;
+  cursor: pointer;
+}
