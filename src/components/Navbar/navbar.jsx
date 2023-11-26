@@ -1,5 +1,6 @@
 import React from "react";
 import "./Navbar.css";
+import StyledButton from "../buttons/StyledButton";
 
 const Navbar = () => {
   return (
@@ -14,9 +15,7 @@ const Navbar = () => {
         <li>
           <a href="/shop">Shop</a>
         </li>
-        <li>
-          <a href="/sell">Sell</a>
-        </li>
+
         <li>
           <a href="/discover">Discover</a>
         </li>
@@ -26,7 +25,7 @@ const Navbar = () => {
       </ul>
       <div className="navbar-search">
         <input type="text" placeholder="Search" />
-        <button>Search</button>
+        <StyledButton text="Search" size="small" />
       </div>
     </nav>
   );

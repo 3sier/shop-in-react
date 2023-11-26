@@ -1,5 +1,5 @@
-
 .footer {
+  position: fixed;
   background-color: #f8f8f8;
   padding: 20px;
   display: flex;
@@ -7,7 +7,6 @@
   justify-content: space-between;
   align-items: center;
 }
-
 
 .footer-links {
   display: flex;
@@ -25,7 +24,6 @@
   color: #666;
 }
 
-
 .social-media {
   display: flex;
   flex-direction: row;
@@ -38,12 +36,10 @@
   margin-right: 10px;
 }
 
-
 .footer-copyright {
   color: #666;
   font-size: 14px;
 }
-
 
 @media screen and (max-width: 768px) {
   .footer {
