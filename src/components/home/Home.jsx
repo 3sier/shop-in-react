@@ -26,8 +26,8 @@ const Home = () => {
         {products.map((product) => (
           <Grid item xs={12} sm={6} md={6} lg={4}>
             <Product
-              key={product.id}
-              id={product.id}
+              key={product._id}
+              id={product._id}
               imgs={product.imgs}
               brand={product.brand}
               title={product.title}

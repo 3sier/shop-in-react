@@ -10,6 +10,7 @@ import Navbar from "./components/Navbar/Navbar";
 import "./components/Navbar/Navbar.css";
 import Home from "./components/home/Home";
 import "./components/Home/Home.css";
+import Productdetail from "./components/ShowProduct/ShowProduct";
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
           <Route path="/home" element={<Home />} />
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
+          <Route path="/products/:id" element={<Productdetail />} />
         </Routes>
       </BrowserRouter>
       <Footer />

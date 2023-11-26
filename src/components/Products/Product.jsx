@@ -11,13 +11,16 @@ const Product = ({
   category,
   priceUnit,
 }) => {
+  const redirectToProduct = (productId) => {
+    window.location.href = `/products/${productId}`;
+  };
+
   return (
-    <div className="product-container">
+    <div className="product-container" onClick={() => redirectToProduct(id)}>
       <div className="product-img-container">
         <CardMedia
           component="div"
           sx={{
-            // 16:9
             pt: "100%",
           }}
           image={imgs.front}
@@ -25,7 +28,6 @@ const Product = ({
       </div>
       <div className="product-info-container">
         <h3>{brand}</h3>
-
         <p>{title}</p>
         <p>
           Price: {price} {priceUnit}

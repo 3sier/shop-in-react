@@ -1,0 +1,8 @@
+.product-detail-info-container {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 1;
+  margin: 20px;
+  padding: 20px;
+}
