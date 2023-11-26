@@ -2,6 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
 import StyledButton from "../buttons/StyledButton";
+import { IconButton, InputAdornment, OutlinedInput } from "@mui/material";
+import SearchOutlinedIcon from "@mui/icons-material/SearchOutlined";
 
 const Navbar = () => {
   return (
@@ -25,8 +27,16 @@ const Navbar = () => {
       </ul>
 
       <div className="navbar-search">
-        <input type="text" placeholder="Search" />
-        <StyledButton text="Search" size="small" />
+        <OutlinedInput
+          placeholder="Search"
+          endAdornment={
+            <InputAdornment position="end">
+              <IconButton edge="end">
+                <SearchOutlinedIcon />
+              </IconButton>
+            </InputAdornment>
+          }
+        />
       </div>
       <div className="navbar-login">
         <Link to="/login">

@@ -5,7 +5,7 @@ const StyledButton = ({ text, handleClick, size = "small" }) => {
   return (
     <Button
       color="primary"
-      variant="contained"
+      variant="outlined"
       size={size}
       onClick={handleClick}
       type="submit"

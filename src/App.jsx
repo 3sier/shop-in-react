@@ -11,6 +11,7 @@ import "./components/Navbar/Navbar.css";
 import Home from "./components/home/Home";
 import "./components/Home/Home.css";
 import Productdetail from "./components/ShowProduct/ShowProduct";
+import Video from "./components/Video/Walking.mp4";
 
 const App = () => {
   return (

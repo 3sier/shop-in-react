@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Product from "../Products/Product";
 import { Grid } from "@mui/material";
+import Video from "../../components/Video/Walking.mp4";
 
 const Home = () => {
   const [products, setProducts] = useState([]);
@@ -21,6 +22,20 @@ const Home = () => {
 
   return (
     <div>
+      <video
+        autoPlay
+        loop
+        muted
+        style={{
+          position: "relative",
+          top: 0,
+          left: 0,
+          width: "100%",
+          height: "100%",
+        }}
+      >
+        <source src={Video} type="video/mp4" />
+      </video>
       <h1>Product List</h1>
       <Grid container spacing={3} m={3}>
         {products.map((product) => (
