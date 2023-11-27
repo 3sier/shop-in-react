@@ -1,36 +1,46 @@
 import React from "react";
+import { Grid } from "@mui/material";
+import { Link } from "react-router-dom";
+import "./PopularBrands.css";
 
 const PopularBrands = () => {
   const brands = [
     {
-      link: "https://i.ibb.co/0n2kFsG/logo-rick-owens.png",
+      link: "https://www.instagram.com/kapitalglobal",
+      logo: "https://i.ibb.co/qn7sDpT/kapital.png",
     },
     {
-      link: "https://i.ibb.co/Jx5gk8y/e04176713c8ad6c5847efd3132b0cfc6.png",
+      link: "https://www.instagram.com/rickowensonline",
+      logo: "https://i.ibb.co/DkY62jk/rickowens.png",
     },
     {
-      link: "https://i.ibb.co/F6FGmv8/Chrome-Hearts-Symbol.png",
+      link: "https://www.instagram.com/maisonmargiela",
+      logo: "https://i.ibb.co/93zzXmH/maisonmargiela.png",
     },
     {
-      link: "https://i.ibb.co/mCYDQLV/61362277f5966900044cbf5a.png",
+      link: "https://www.instagram.com/nike",
+      logo: "https://i.ibb.co/RBDkVbZ/nike.png",
     },
   ];
 
   return (
-    <div>
-      <h1>Popular Brands</h1>
-      <div className="brand-logos">
-        {brands.slice(0, 4).map((brand, index) => (
-          <a
-            key={index}
-            href={brand.link}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img src={brand.logo} alt={`Brand Logo ${index + 1}`} />
-          </a>
+    <div className="popular-brands-container">
+      <h1 className="popular-brands-heading">Popular Brands</h1>
+      <Grid container spacing={3}>
+        {brands.map((brand, index) => (
+          <Grid item xs={12} sm={6} md={3} key={index}>
+            <div className="brand-item">
+              <Link to={brand.link}>
+                <img
+                  src={brand.logo}
+                  alt={`Brand Logo ${index + 1}`}
+                  className="brand-logo"
+                />
+              </Link>
+            </div>
+          </Grid>
         ))}
-      </div>
+      </Grid>
     </div>
   );
 };

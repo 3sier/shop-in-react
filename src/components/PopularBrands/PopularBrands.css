@@ -1,0 +1,9 @@
+.popular-brands-container {
+  align-items: center;
+  height: 100vh;
+  padding: 0 10%;
+}
+
+.brand-logo {
+  height: 200px;
+}
