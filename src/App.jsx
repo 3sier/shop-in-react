@@ -6,12 +6,13 @@ import Register from "./components/Register/Register";
 import "./App.css";
 import Footer from "./components/Footer/Footer";
 import "./components/Footer/Footer.css";
-import Navbar from "./components/Navbar/Navbar";
+import Navbar from "./components/Navbar/navbar";
 import "./components/Navbar/Navbar.css";
 import Home from "./components/home/Home";
 import "./components/Home/Home.css";
 import Productdetail from "./components/ShowProduct/ShowProduct";
 import Video from "./components/Video/Walking.mp4";
+import Shop from "./components/Shop/Shop";
 
 const App = () => {
   return (
@@ -24,6 +25,7 @@ const App = () => {
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
           <Route path="/products/:id" element={<Productdetail />} />
+          <Route path="/shop" element={<Shop />} />
         </Routes>
       </BrowserRouter>
       <Footer />
