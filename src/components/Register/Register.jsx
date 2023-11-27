@@ -76,7 +76,7 @@ const Register = () => {
       });
       return;
     }
-    //username does not containe spaces or special characters
+
     if (username.includes(" ")) {
       Swal.fire({
         title: "Username must not contain spaces",

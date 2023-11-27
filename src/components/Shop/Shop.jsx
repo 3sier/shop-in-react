@@ -1,4 +1,3 @@
-// src/components/tabs/ShopTab.jsx
 import React, { useState, useEffect } from "react";
 import Product from "../Products/Product";
 import { Grid } from "@mui/material";
