@@ -32,7 +32,6 @@ const Product = ({
         <p>
           Price: {price} {priceUnit}
         </p>
-        <p>Condition: {condition}</p>
         <p>Size: {size}</p>
         <p>Category: {category}</p>
       </div>

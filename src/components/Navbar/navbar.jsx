@@ -9,7 +9,9 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-logo">
-        <img src="https://i.ibb.co/4FXKB9d/3dgifmaker33254.gif" alt="RSELL" />
+        <Link to="/home">
+          <img src="https://i.ibb.co/4FXKB9d/3dgifmaker33254.gif" alt="RSELL" />
+        </Link>
       </div>
       <ul className="navbar-links">
         <li>
@@ -17,9 +19,6 @@ const Navbar = () => {
         </li>
         <li>
           <Link to="/shop">Shop</Link>
-        </li>
-        <li>
-          <Link to="/discover">Discover</Link>
         </li>
         <li>
           <Link to="/profile">Profile</Link>

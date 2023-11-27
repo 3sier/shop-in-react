@@ -40,7 +40,7 @@ export default function Productdetail() {
     <div>
       <h1>Product Detail</h1>
       <div className="product-detail-container">
-        <Grid container spacing={3} m={3}>
+        <Grid container spacing={3} p={5}>
           <Grid item xs={12} sm={6} md={6} lg={4}>
             <div className="product-detail-info-container">
               <h3>{product.brand}</h3>

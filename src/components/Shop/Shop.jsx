@@ -23,7 +23,7 @@ const ShopTab = () => {
   return (
     <div>
       <h1>Product List</h1>
-      <Grid container spacing={3} m={3}>
+      <Grid container spacing={3} p={5}>
         {products.map((product) => (
           <Grid item xs={12} sm={6} md={6} lg={4}>
             <Product
