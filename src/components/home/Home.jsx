@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
-import { Grid } from "@mui/material";
 import Video from "../../components/Video/Walking.mp4";
 import PopularBrands from "../PopularBrands/PopularBrands";
+import StaffPicks from "../StaffPicks/StaffPicks";
 
 const Home = () => {
   const [products, setProducts] = useState([]);
@@ -37,6 +37,7 @@ const Home = () => {
         <source src={Video} type="video/mp4" />
       </video>
       <PopularBrands />
+      <StaffPicks />
     </div>
   );
 };

@@ -24,23 +24,25 @@ const PopularBrands = () => {
   ];
 
   return (
-    <div className="popular-brands-container">
-      <h1 className="popular-brands-heading">Popular Brands</h1>
-      <Grid container spacing={3}>
-        {brands.map((brand, index) => (
-          <Grid item xs={12} sm={6} md={3} key={index}>
-            <div className="brand-item">
-              <Link to={brand.link}>
-                <img
-                  src={brand.logo}
-                  alt={`Brand Logo ${index + 1}`}
-                  className="brand-logo"
-                />
-              </Link>
-            </div>
-          </Grid>
-        ))}
-      </Grid>
+    <div style={{ marginBottom: "10px" }}>
+      <div className="popular-brands-container">
+        <h1 className="popular-brands-heading">Partners</h1>
+        <Grid className="grid" container spacing={3}>
+          {brands.map((brand, index) => (
+            <Grid item xs={12} sm={6} md={3} key={index}>
+              <div className="brand-item">
+                <Link to={brand.link}>
+                  <img
+                    src={brand.logo}
+                    alt={`Brand Logo ${index + 1}`}
+                    className="brand-logo"
+                  />
+                </Link>
+              </div>
+            </Grid>
+          ))}
+        </Grid>
+      </div>
     </div>
   );
 };

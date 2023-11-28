@@ -6,7 +6,6 @@ const Product = ({
   title,
   brand,
   price,
-  condition,
   size,
   category,
   priceUnit,
