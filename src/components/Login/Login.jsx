@@ -41,7 +41,8 @@ const Login = () => {
       if (response.status === 200 || response.status === 201) {
         response.json().then((data) => {
           localStorage.setItem("token", data.access_token);
-          setIsLoggedIn(true); // Set isLoggedIn to true
+          setIsLoggedIn(true);
+          localStorage.setItem("username", username);
           window.location.href = "/home";
         });
       } else {

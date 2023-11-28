@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Product from "../Products/Product";
 import { Grid } from "@mui/material";
-import { Link } from "react-router-dom";
 
 const StaffPicks = () => {
   const [products, setProducts] = useState([]);
@@ -31,8 +30,8 @@ const StaffPicks = () => {
 
       <Grid container spacing={2} p={5} justify="center">
         {products.map((product) => (
-          <Grid item xs={12} sm={6} md={6} lg={4} key={product.id}>
-            <Product {...product} />
+          <Grid item xs={12} sm={6} md={6} lg={4} key={product._id}>
+            <Product id={product._id} {...product} />
           </Grid>
         ))}
       </Grid>

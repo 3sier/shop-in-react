@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { Box, CardMedia, Grid } from "@mui/material";
 import "./ShowProduct.css";
-import StyledButton from "../buttons/StyledButton";
+import CheckoutButton from "../buttons/CheckoutButton";
 
 export default function Productdetail() {
   const [product, setProduct] = useState({});
@@ -78,11 +78,7 @@ export default function Productdetail() {
               <p>Size: {product.size}</p>
               <p>Category: {product.category}</p>
               <Box mt={2} className="product-details">
-                <StyledButton
-                  text="Add to Cart"
-                  handleClick={addToCart}
-                  size="small"
-                />
+                <CheckoutButton text="Checkout" size="small" />
               </Box>
             </div>
           </Grid>
