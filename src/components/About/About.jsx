@@ -4,7 +4,7 @@ import "./About.css";
 const About = () => {
   return (
     <div className="about-container">
-      <h1 className="about-header">About rsell</h1>
+      <h1 className="about-header">About RSELL</h1>
       <h2 className="about-header">
         {" "}
         Redefining Fashion with Timeless Elegance
@@ -29,7 +29,7 @@ const About = () => {
         designers, our collection is a testament to the enduring craftsmanship
         and innovation that defines true style.
       </p>
-      <h3 className="about-header">The rsell Experience:</h3>
+      <h3 className="about-header">The RSELL Experience:</h3>
       <p className="about-content">
         Shopping with us is more than a transaction; it's an exploration of the
         unique stories behind each garment. Discover the character, history, and
