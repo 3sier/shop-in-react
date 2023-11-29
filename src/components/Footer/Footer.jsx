@@ -6,7 +6,6 @@ const Footer = () => {
       <div className="footer-links">
         <a href="/about">About</a>
         <a href="/contact">Contact</a>
-        <a href="/terms">Terms</a>
       </div>
       <div className="social-media">
         <a href="https://instagram.com/">

@@ -1,8 +1,8 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useMemo } from "react";
+import { Grid, Box, Button } from "@mui/material";
 import Product from "../Products/Product";
-import { Grid, Button } from "@mui/material";
-import { Box } from "@mui/material";
-const ShopTab = () => {
+
+function ShopTab() {
   const [products, setProducts] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
   const [productsPerPage] = useState(9);
@@ -21,23 +21,24 @@ const ShopTab = () => {
     fetchProducts();
   }, []);
 
-  const indexOfLastProduct = currentPage * productsPerPage;
-  const indexOfFirstProduct = indexOfLastProduct - productsPerPage;
-  const currentProducts = products.slice(
-    indexOfFirstProduct,
-    indexOfLastProduct
-  );
+  const currentProducts = useMemo(() => {
+    const indexOfLastProduct = currentPage * productsPerPage;
+    const indexOfFirstProduct = indexOfLastProduct - productsPerPage;
+    return products.slice(indexOfFirstProduct, indexOfLastProduct);
+  }, [currentPage, products, productsPerPage]);
 
-  const paginate = (pageNumber) => setCurrentPage(pageNumber);
+  const paginate = (pageNumber) => {
+    setCurrentPage(pageNumber);
+    window.scrollTo(0, 0);
+  };
 
   return (
     <div>
-      <h1>Product List</h1>
-      <Grid container spacing={3} p={5}>
+      <h1>Shop</h1>
+      <Grid container spacing={3} p={2}>
         {currentProducts.map((product) => (
-          <Grid item xs={12} sm={6} md={6} lg={4}>
+          <Grid item xs={12} sm={6} md={6} lg={4} key={product._id}>
             <Product
-              key={product._id}
               id={product._id}
               imgs={product.imgs}
               brand={product.brand}
@@ -51,6 +52,7 @@ const ShopTab = () => {
           </Grid>
         ))}
       </Grid>
+
       <Box display="flex" justifyContent="center" m={1} p={1}>
         {[...Array(Math.ceil(products.length / productsPerPage)).keys()].map(
           (number) => (
@@ -66,6 +68,6 @@ const ShopTab = () => {
       </Box>
     </div>
   );
-};
+}
 
 export default ShopTab;
