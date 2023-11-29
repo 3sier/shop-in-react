@@ -78,7 +78,7 @@ export default function Productdetail() {
               <p>Size: {product.size}</p>
               <p>Category: {product.category}</p>
               <Box mt={2} className="product-details">
-                <CheckoutButton text="Checkout" size="small" />
+                <CheckoutButton text="Buy now" size="small" />
               </Box>
             </div>
           </Grid>

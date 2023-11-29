@@ -1,0 +1,26 @@
+.about-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.about-header {
+  color: #333;
+  font-size: 28px;
+  margin-top: 20px;
+}
+
+.about-content {
+  color: #555;
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.about-header + .about-content {
+  margin-top: 5px;
+}
+
+.about-content:last-child {
+  margin-bottom: 0;
+}

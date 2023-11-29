@@ -15,6 +15,8 @@ import Video from "./components/Video/Walking.mp4";
 import Shop from "./components/Shop/Shop";
 import Success from "./components/success/Success";
 import Cancel from "./components/Cancel/Cancel";
+import About from "./components/About/About";
+import Contact from "./components/Contact/Contact";
 
 const App = () => {
   const [showFooter, setShowFooter] = React.useState(true);
@@ -22,7 +24,9 @@ const App = () => {
   React.useEffect(() => {
     const currentPath = window.location.pathname;
     const shouldShowFooter =
-      currentPath !== "/success" && currentPath !== "/cancel";
+      currentPath !== "/success" &&
+      currentPath !== "/cancel" &&
+      currentPath !== "/contact";
     setShowFooter(shouldShowFooter);
   }, [window.location.pathname]);
 
@@ -37,6 +41,8 @@ const App = () => {
           <Route path="/register" element={<Register />} />
           <Route path="/products/:id" element={<Productdetail />} />
           <Route path="/shop" element={<Shop />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
           <Route path="/success" element={<Success />} />
           <Route path="/cancel" element={<Cancel />} />
         </Routes>

@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import Video from "../../components/Video/Walking.mp4";
 import PopularBrands from "../PopularBrands/PopularBrands";
 import StaffPicks from "../StaffPicks/StaffPicks";
+import "./Home.css";
 
 const Home = () => {
   const [products, setProducts] = useState([]);
