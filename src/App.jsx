@@ -1,6 +1,5 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Landing from "./components/Landing/Landing";
 import Login from "./components/Login/Login";
 import Register from "./components/Register/Register";
 import "./App.css";
@@ -11,7 +10,6 @@ import "./components/Navbar/Navbar.css";
 import Home from "./components/home/Home";
 import "./components/Home/Home.css";
 import Productdetail from "./components/ShowProduct/ShowProduct";
-import Video from "./components/Video/Walking.mp4";
 import Shop from "./components/Shop/Shop";
 import Success from "./components/success/Success";
 import Cancel from "./components/Cancel/Cancel";
