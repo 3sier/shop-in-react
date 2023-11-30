@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
 import StyledButton from "../buttons/StyledButton";
@@ -17,19 +17,41 @@ const Navbar = () => {
     window.location.href = "/home";
   };
 
-  function handleBrandSearch(event) {
-    event.preventDefault();
-    const searchBrand = event.target.value;
-    fetch(`http://localhost:3000/products/${event.target.value}`, {
-      method: "POST",
+  /*  function handleBrandSearch(brand) {
+    fetch(`http://localhost:3000/api/products/${brand}`, {
+      method: "GET",
       headers: {
         "Content-type": "application/json; charset=UTF-8",
       },
     })
-      .then((response) => response.json())
-      .then((data) => setSearch(data))
+      .then((response) => {
+        if (!response.ok) {
+          throw new Error("Network response was not ok");
+        }
+        return response.json();
+      })
+      .then((data) => {
+        console.log(data);
+      })
       .catch((err) => console.log(err));
-  }
+  } */
+
+  /* React.useEffect(() => {
+    const handleBrandSearch = (brand) => {
+      try {
+        const response = fetch(`http://localhost:3000/api/products/${brand}`, {
+          method: "GET",
+          headers: {
+            "Content-type": "application/json; charset=UTF-8",
+          },
+        });
+        const data = response.json();
+        console.log(data);
+      } catch (error) {
+        console.error(error);
+      }
+    };
+  }, []); */
 
   React.useEffect(() => {
     const token = localStorage.getItem("token");

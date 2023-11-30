@@ -37,7 +37,7 @@ const Home = () => {
       >
         <source src={Video} type="video/mp4" />
       </video>
-
+      <h1 className="welcome">welcome</h1>
       <PopularBrands />
       <StaffPicks />
     </div>
