@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
 import StyledButton from "../buttons/StyledButton";
@@ -6,7 +6,6 @@ import { IconButton, InputAdornment, OutlinedInput } from "@mui/material";
 import SearchOutlinedIcon from "@mui/icons-material/SearchOutlined";
 
 const Navbar = () => {
-  const [search, setSearch] = React.useState("");
   const [userName, setUserName] = React.useState("");
   const [isLoggedIn, setIsLoggedIn] = React.useState(false);
 
@@ -16,20 +15,6 @@ const Navbar = () => {
     setIsLoggedIn(false);
     window.location.href = "/home";
   };
-
-  function handleBrandSearch(event) {
-    event.preventDefault();
-    const searchBrand = event.target.value;
-    fetch(`http://localhost:3000/products/${event.target.value}`, {
-      method: "POST",
-      headers: {
-        "Content-type": "application/json; charset=UTF-8",
-      },
-    })
-      .then((response) => response.json())
-      .then((data) => setSearch(data))
-      .catch((err) => console.log(err));
-  }
 
   React.useEffect(() => {
     const token = localStorage.getItem("token");
@@ -58,19 +43,6 @@ const Navbar = () => {
         </li>
       </ul>
 
-      <div onClick={handleBrandSearch} className="navbar-search">
-        <OutlinedInput
-          placeholder="Search"
-          name="search"
-          endAdornment={
-            <InputAdornment position="end">
-              <IconButton edge="end">
-                <SearchOutlinedIcon />
-              </IconButton>
-            </InputAdornment>
-          }
-        />
-      </div>
       {isLoggedIn ? (
         <div className="navbar-logout">
           <StyledButton text="Logout" handleClick={handleLogout} size="small" />

@@ -1,14 +1,16 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { Box, CardMedia, Grid } from "@mui/material";
-import "./ShowProduct.css";
+import "./Showproduct.css";
 import CheckoutButton from "../buttons/CheckoutButton";
+import StyledButton from "../buttons/StyledButton";
 
 export default function Productdetail() {
   const [product, setProduct] = useState({});
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(false);
   const { id } = useParams();
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
 
   const addToCart = () => {
     const requestBody = {
@@ -16,7 +18,7 @@ export default function Productdetail() {
       quantity: 1,
     };
 
-    fetch("http://localhost:3000/api/cart", {
+    fetch("https://p01--rsell--srhmcpsmbtfr.code.run/api/cart", {
       method: "POST",
       headers: {
         "Content-Length": JSON.stringify(requestBody).length.toString(),
@@ -39,7 +41,7 @@ export default function Productdetail() {
     const fetchProduct = async () => {
       try {
         const response = await fetch(
-          `http://localhost:3000/api/products/id/${id}`
+          `https://p01--rsell--srhmcpsmbtfr.code.run/api/products/id/${id}`
         );
         const data = await response.json();
         setProduct(data);
@@ -52,6 +54,10 @@ export default function Productdetail() {
     };
 
     fetchProduct();
+    const token = localStorage.getItem("token");
+    if (token) {
+      setIsLoggedIn(true);
+    }
   }, [id]);
 
   if (loading) {
@@ -78,7 +84,15 @@ export default function Productdetail() {
               <p>Size: {product.size}</p>
               <p>Category: {product.category}</p>
               <Box mt={2} className="product-details">
-                <CheckoutButton text="Buy now" size="small" />
+                {isLoggedIn ? (
+                  <CheckoutButton text="Add to Cart" handleClick={addToCart} />
+                ) : (
+                  <StyledButton
+                    text="Login to Add to Cart"
+                    size="small"
+                    handleClick={() => (window.location.href = "/login")}
+                  />
+                )}
               </Box>
             </div>
           </Grid>
