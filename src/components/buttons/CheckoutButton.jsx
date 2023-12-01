@@ -3,7 +3,10 @@ import { Button } from "@mui/material";
 
 const CheckoutButton = ({ text, size = "small" }) => {
   return (
-    <form action="http://localhost:3000/api/payments" method="POST">
+    <form
+      action="https://p01--rsell--srhmcpsmbtfr.code.run/api/payments"
+      method="POST"
+    >
       <Button
         color="primary"
         variant="outlined"

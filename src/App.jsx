@@ -8,7 +8,7 @@ import "./components/Footer/Footer.css";
 import Navbar from "./components/Navbar/navbar";
 import "./components/Navbar/Navbar.css";
 import Home from "./components/home/Home";
-import "./components/Home/Home.css";
+import "./components/home/Home.css";
 import Productdetail from "./components/ShowProduct/ShowProduct";
 import Shop from "./components/Shop/Shop";
 import Success from "./components/success/Success";

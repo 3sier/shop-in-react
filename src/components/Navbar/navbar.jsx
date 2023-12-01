@@ -6,7 +6,6 @@ import { IconButton, InputAdornment, OutlinedInput } from "@mui/material";
 import SearchOutlinedIcon from "@mui/icons-material/SearchOutlined";
 
 const Navbar = () => {
-  const [search, setSearch] = React.useState("");
   const [userName, setUserName] = React.useState("");
   const [isLoggedIn, setIsLoggedIn] = React.useState(false);
 
@@ -17,6 +16,7 @@ const Navbar = () => {
     window.location.href = "/home";
   };
 
+<<<<<<< HEAD
   /*  function handleBrandSearch(brand) {
     fetch(`http://localhost:3000/api/products/${brand}`, {
       method: "GET",
@@ -53,6 +53,8 @@ const Navbar = () => {
     };
   }, []); */
 
+=======
+>>>>>>> b944e671477f9ebb602fe27e8b3e230b216870b7
   React.useEffect(() => {
     const token = localStorage.getItem("token");
     if (token) {
@@ -80,19 +82,6 @@ const Navbar = () => {
         </li>
       </ul>
 
-      <div onClick={handleBrandSearch} className="navbar-search">
-        <OutlinedInput
-          placeholder="Search"
-          name="search"
-          endAdornment={
-            <InputAdornment position="end">
-              <IconButton edge="end">
-                <SearchOutlinedIcon />
-              </IconButton>
-            </InputAdornment>
-          }
-        />
-      </div>
       {isLoggedIn ? (
         <div className="navbar-logout">
           <StyledButton text="Logout" handleClick={handleLogout} size="small" />
