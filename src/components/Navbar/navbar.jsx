@@ -16,45 +16,6 @@ const Navbar = () => {
     window.location.href = "/home";
   };
 
-<<<<<<< HEAD
-  /*  function handleBrandSearch(brand) {
-    fetch(`http://localhost:3000/api/products/${brand}`, {
-      method: "GET",
-      headers: {
-        "Content-type": "application/json; charset=UTF-8",
-      },
-    })
-      .then((response) => {
-        if (!response.ok) {
-          throw new Error("Network response was not ok");
-        }
-        return response.json();
-      })
-      .then((data) => {
-        console.log(data);
-      })
-      .catch((err) => console.log(err));
-  } */
-
-  /* React.useEffect(() => {
-    const handleBrandSearch = (brand) => {
-      try {
-        const response = fetch(`http://localhost:3000/api/products/${brand}`, {
-          method: "GET",
-          headers: {
-            "Content-type": "application/json; charset=UTF-8",
-          },
-        });
-        const data = response.json();
-        console.log(data);
-      } catch (error) {
-        console.error(error);
-      }
-    };
-  }, []); */
-
-=======
->>>>>>> b944e671477f9ebb602fe27e8b3e230b216870b7
   React.useEffect(() => {
     const token = localStorage.getItem("token");
     if (token) {
