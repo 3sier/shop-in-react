@@ -30,7 +30,7 @@ const Login = () => {
       username: username,
       password: password,
     };
-    fetch("https://p01--rsell--srhmcpsmbtfr.code.run/users/login", {
+    fetch("http://localhost:3000/users/login", {
       method: "POST",
       headers: {
         "Content-Length": JSON.stringify(requestBody).length.toString(),

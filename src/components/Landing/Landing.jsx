@@ -5,23 +5,13 @@ const Landing = () => {
   return (
     <div className="landing-container">
       <header className="landing-header">
-        <nav className="landing-navbar">
-          {/* Navbar content */}
-        </nav>
+        <nav className="landing-navbar"></nav>
       </header>
       <main className="landing-main">
-        <section className="landing-hero">
-          {/* Hero section content */}
-        </section>
-        <section className="landing-features">
-          {/* Features section content */}
-        </section>
-        <section className="landing-testimonials">
-          {/* Testimonials section content */}
-        </section>
-        <section className="landing-footer">
-          {/* Footer section content */}
-        </section>
+        <section className="landing-hero"></section>
+        <section className="landing-features"></section>
+        <section className="landing-testimonials"></section>
+        <section className="landing-footer"></section>
       </main>
     </div>
   );

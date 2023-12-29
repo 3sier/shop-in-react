@@ -8,9 +8,7 @@ const StaffPicks = () => {
   useEffect(() => {
     const fetchProducts = async () => {
       try {
-        const response = await fetch(
-          "https://p01--rsell--srhmcpsmbtfr.code.run/api/products"
-        );
+        const response = await fetch("http://localhost:3000/api/products/");
         let data = await response.json();
 
         data.sort(() => Math.random() - 0.5);

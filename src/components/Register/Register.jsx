@@ -112,7 +112,7 @@ const Register = () => {
       name: name,
       password: password,
     };
-    fetch("https://p01--rsell--srhmcpsmbtfr.code.run/users/signup", {
+    fetch("http://localhost:3000/users/signup", {
       method: "POST",
       headers: {
         "Content-Length": JSON.stringify(requestBody).length.toString(),
